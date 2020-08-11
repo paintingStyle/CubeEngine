@@ -22,17 +22,14 @@
     "CubeEngine/Classes/include/**/*",
     "CubeEngine/Libraries/*.{ast}",
     "CubeEngine/ffmpeg/include/**/*",
-    "CubeEngine/Frameworks/WebRTC/**/*.h"
+    "CubeEngine/Frameworks/WebRTC.framework/Headers/**/*.h"
   ],
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC"
   },
   "vendored_libraries": "CubeEngine/Libraries/*.a",
   "vendored_frameworks": "CubeEngine/Frameworks/*.framework",
-  "public_header_files": [
-    "CubeEngine/Classes/include/**/*.h",
-    "CubeEngine/Frameworks/WebRTC.framework/Headers/**/*.h"
-  ],
+  "public_header_files": "CubeEngine/Classes/include/**/*.h",
   "frameworks": [
     "UIKit",
     "AVFoundation",

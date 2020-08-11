@@ -45,127 +45,211 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		057B39348B2032523E6C7AC5107FF4C8 /* CubeJSONObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeJSONObject.h; path = CubeEngine/Classes/include/CubeJSONObject.h; sourceTree = "<group>"; };
-		075FDAA77425F641CBA910B9991BEEBB /* CubePredictorResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubePredictorResult.h; path = CubeEngine/Classes/include/CubePredictorResult.h; sourceTree = "<group>"; };
-		0ADE6A78D041979E4D864AB19BBB8607 /* CubeMessageService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeMessageService.h; path = CubeEngine/Classes/include/CubeMessageService.h; sourceTree = "<group>"; };
-		0C0A27BAA1709BD4B0B6F63671238FAA /* SmartInviteFailure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartInviteFailure.h; path = CubeEngine/Classes/include/SmartInviteFailure.h; sourceTree = "<group>"; };
-		0C29795E6216A9976B0ABF28D27FA687 /* CubeGroupService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeGroupService.h; path = CubeEngine/Classes/include/CubeGroupService.h; sourceTree = "<group>"; };
+		05624EC8D5668AB88BEB9DE1E3939A6E /* CubeWhiteboardFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeWhiteboardFile.h; sourceTree = "<group>"; };
+		056E5570751DA1D92569B857061A9AB7 /* CubeFileUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeFileUtil.h; sourceTree = "<group>"; };
+		061B1FED8443D13C7B4D35E7CE1B981F /* CubeWhiteboardClipMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeWhiteboardClipMessage.h; sourceTree = "<group>"; };
+		0A91A4189E236807C345F9045167704C /* CubeRemoteView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeRemoteView.h; sourceTree = "<group>"; };
+		0ACB356816600DCCA90B82DC6A816563 /* RTCVideoDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoDecoder.h; sourceTree = "<group>"; };
+		0B0A08745E87721599DC6746584D223C /* RTCVideoDecoderVP9.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoDecoderVP9.h; sourceTree = "<group>"; };
+		0C22D43A3C3895AA8BB25BE17DC6A4EA /* CubeConferenceService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeConferenceService.h; sourceTree = "<group>"; };
+		0CBF859BEC1B6305E0C9407CDFF21E4B /* RTCRtpReceiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCRtpReceiver.h; sourceTree = "<group>"; };
+		0D2FDFC7383C1437DBB73C6AE8B41153 /* RTCMediaStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCMediaStream.h; sourceTree = "<group>"; };
+		0D65CBBA9CCCBFDFA1C25EFBDD6F801B /* RTCCertificate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCCertificate.h; sourceTree = "<group>"; };
 		0D67EA06FA60DC56010D1C8CACD4C92A /* Pods-CubeEngine_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CubeEngine_Example.modulemap"; sourceTree = "<group>"; };
-		0E5C2F21C30677D0BD843DB7730D02F5 /* GroupContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GroupContext.h; path = CubeEngine/Classes/include/GroupContext.h; sourceTree = "<group>"; };
+		0DCE4A71D995914D672449F3F7E05A8E /* RTCVideoViewShading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoViewShading.h; sourceTree = "<group>"; };
 		0E665710C5EB0D8E66AA2B089FB3ADEC /* Pods_CubeEngine_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CubeEngine_Example.framework; path = "Pods-CubeEngine_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		10B61013FA9930D744072F3C57BD8812 /* CubeLiveInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeLiveInfo.h; path = CubeEngine/Classes/include/CubeLiveInfo.h; sourceTree = "<group>"; };
-		124EF4F9A4ACCE237E3E3236B4FA555C /* SmartMemberControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartMemberControl.h; path = CubeEngine/Classes/include/SmartMemberControl.h; sourceTree = "<group>"; };
-		1277A04B022A871C46AB374BDF2770C9 /* Cube.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Cube.h; path = CubeEngine/Classes/include/Cube.h; sourceTree = "<group>"; };
-		13DF8C091EB28955E852FE9462C2E169 /* CubeHistoryMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeHistoryMessage.h; path = CubeEngine/Classes/include/CubeHistoryMessage.h; sourceTree = "<group>"; };
+		0FBB04DEB96C43AA158E27E2B1A40855 /* RTCVideoEncoderFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoEncoderFactory.h; sourceTree = "<group>"; };
+		12A3DB8D64ACA28A268B1980B3C7C8C5 /* CubeFileMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeFileMessage.h; sourceTree = "<group>"; };
+		14D3BC0C0C6FCA4B53841C7A4D3042F5 /* SmartConferenceService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartConferenceService.h; sourceTree = "<group>"; };
 		159CA9A6688E9AC6819B6F644ABEFD79 /* Pods-CubeEngine_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubeEngine_Example-Info.plist"; sourceTree = "<group>"; };
-		1D3B0C120F8F42BD40380D854525045F /* CubeLiveService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeLiveService.h; path = CubeEngine/Classes/include/CubeLiveService.h; sourceTree = "<group>"; };
-		1DCFA98DF646F0D4D07327135559244E /* CubeRemoteVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeRemoteVideoView.h; path = CubeEngine/Classes/include/CubeRemoteVideoView.h; sourceTree = "<group>"; };
-		1FFEB4C241BE2A37200531B7CF418C02 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = CubeEngine/Frameworks/Starscream.framework; sourceTree = "<group>"; };
+		168C9483F36A20610481218EBC238D15 /* CubeLocalVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeLocalVideoView.h; sourceTree = "<group>"; };
+		169B81A728A6798D642900574D56DED9 /* CubeFileService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeFileService.h; sourceTree = "<group>"; };
+		1937F761FD5BD111C050E5941BBA4424 /* SmartMacroDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartMacroDefine.h; sourceTree = "<group>"; };
+		1A840BE7155347713A0C2E8BD9A97758 /* mztools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		1AB3725997C3435536A85CC60E21E991 /* CubeTextMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeTextMessage.h; sourceTree = "<group>"; };
+		1C861568FBBFF5D4672B2446E88B9455 /* RTCVideoCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoCapturer.h; sourceTree = "<group>"; };
+		1CE69D49AD9F7E6B1013C89E55470178 /* RTCDtmfSender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCDtmfSender.h; sourceTree = "<group>"; };
+		1D8B465DC74306E786EA80887242BBFB /* RTCH264ProfileLevelId.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCH264ProfileLevelId.h; sourceTree = "<group>"; };
+		1D8B8CE94B9DD2DA50C32B9BDFFFD94E /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+		1FF340D7D44E9A2A80CFCA8661702224 /* CubeJSONObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeJSONObject.h; sourceTree = "<group>"; };
+		20E992820BEB904367112C84133F8F5A /* RTCTracing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCTracing.h; sourceTree = "<group>"; };
+		215BF26DE48D0F9714A7454DF6E55879 /* RTCCameraVideoCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCCameraVideoCapturer.h; sourceTree = "<group>"; };
 		2394FF9648B62ECE9278C86ACD2DBF33 /* Pods-CubeEngine_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CubeEngine_Tests-dummy.m"; sourceTree = "<group>"; };
-		242222D2A21C25A1A7DB207E4AEA6B53 /* CubeEngine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CubeEngine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2604B1EC0C88F0CA0AF40C0EA12D94FF /* CubeImageMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeImageMessage.h; path = CubeEngine/Classes/include/CubeImageMessage.h; sourceTree = "<group>"; };
-		2627B466F9FDDCC69BD2B71EF46F3D37 /* CubeLocalVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeLocalVideoView.h; path = CubeEngine/Classes/include/CubeLocalVideoView.h; sourceTree = "<group>"; };
-		276D4720EBDC22E3A7B50F5C79EFCC4D /* SmartMember.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartMember.h; path = CubeEngine/Classes/include/SmartMember.h; sourceTree = "<group>"; };
-		299DB3E846AD8AF270AF784943D7684B /* CubeConferenceService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeConferenceService.h; path = CubeEngine/Classes/include/CubeConferenceService.h; sourceTree = "<group>"; };
-		2AC1EEE53BE8FD9C1796CD701252BF24 /* Conference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Conference.h; path = CubeEngine/Classes/include/Conference.h; sourceTree = "<group>"; };
-		2BA2F748DB36846843AB85236D5E38E8 /* CubeCardMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeCardMessage.h; path = CubeEngine/Classes/include/CubeCardMessage.h; sourceTree = "<group>"; };
-		2D611803D6128BFD039C2B54401F4535 /* SmartMemberRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartMemberRole.h; path = CubeEngine/Classes/include/SmartMemberRole.h; sourceTree = "<group>"; };
-		2D74B7C083373C5E96F13FEB5A971EC2 /* CubeFileUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeFileUtil.h; path = CubeEngine/Classes/include/CubeFileUtil.h; sourceTree = "<group>"; };
-		2F190DA6CDB5C9E9AE62975B56E2B3D8 /* CubeAccountService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeAccountService.h; path = CubeEngine/Classes/include/CubeAccountService.h; sourceTree = "<group>"; };
-		30E3EAC93038E6811291C6EA76B9720B /* RemoteViewDataDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RemoteViewDataDelegate.h; path = CubeEngine/Classes/include/RemoteViewDataDelegate.h; sourceTree = "<group>"; };
+		252EA3FE67D2168A90D67A8B67379BEF /* time_adpter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = time_adpter.h; sourceTree = "<group>"; };
+		258D6B12D6F4E3A57DDD1F54C97C3424 /* RTCMediaStreamTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCMediaStreamTrack.h; sourceTree = "<group>"; };
+		26E5CE93168ABAC32104BAC216F2C6F3 /* CubeMediaProbe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeMediaProbe.h; sourceTree = "<group>"; };
+		2BAC45AA75DB8C88EC1D7CAF3FD8481A /* CubeNotifySetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeNotifySetting.h; sourceTree = "<group>"; };
+		2C07666541BDBC75B4601A51C28B6BD6 /* SmartMediaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartMediaData.h; sourceTree = "<group>"; };
+		2DEE6CA2D331A06C37BFB613DE11E0BE /* RTCFileVideoCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCFileVideoCapturer.h; sourceTree = "<group>"; };
+		2ECC445D59AB23BB3BAAC2F7ED798E8E /* SmartConferenceEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartConferenceEnum.h; sourceTree = "<group>"; };
+		2FED2C87E1210F5812AFE1A5792761BC /* RTCVideoRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoRenderer.h; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3308EE2399743A2D6B57A0192CD0CAE0 /* CubeRemoteDesktop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeRemoteDesktop.h; path = CubeEngine/Classes/include/CubeRemoteDesktop.h; sourceTree = "<group>"; };
-		338A9B10CA809BA3DAE11C17898DEAD1 /* CubePlayVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubePlayVideoView.h; path = CubeEngine/Classes/include/CubePlayVideoView.h; sourceTree = "<group>"; };
+		3322928E09892464082B905FC6E54664 /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		333D40870B3D43F9477B6BA6CAAA90FF /* RTCSSLAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCSSLAdapter.h; sourceTree = "<group>"; };
+		3400DF262D4867443702305224375A95 /* RTCFieldTrials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCFieldTrials.h; sourceTree = "<group>"; };
 		35F2C395AA0BB3181E5D7FA7364050D8 /* Pods-CubeEngine_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CubeEngine_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38A7EB5D04FC2D5F9745F74FD8F00379 /* CubeSettingService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeSettingService.h; sourceTree = "<group>"; };
+		38C0827BE1C28C6802D1F9E3B34E4076 /* RTCICECandidate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCICECandidate.h; sourceTree = "<group>"; };
+		3985E1A0E2B1D630718A99621BC167BC /* MessageEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MessageEntity.h; sourceTree = "<group>"; };
+		39F267F5D60AE2E7FEDD0E46C6FBD6AA /* RTCAudioSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCAudioSession.h; sourceTree = "<group>"; };
+		3AFB43183D077D8F8A742B1109320E47 /* SmartInviteFailure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartInviteFailure.h; sourceTree = "<group>"; };
+		3C54103E1B4876997298DED0D0E6D950 /* RTCCodecSpecificInfoH264.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCCodecSpecificInfoH264.h; sourceTree = "<group>"; };
+		3CBF0C91D4AE93635602E53F2BBEE73F /* Peer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Peer.h; sourceTree = "<group>"; };
+		3D0906035F5D9245D3E449AC28B63CFB /* CubeCallEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeCallEnum.h; sourceTree = "<group>"; };
+		3D5E1576B4465D0975C672BCF4CB8401 /* CubeCardContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeCardContent.h; sourceTree = "<group>"; };
 		3EB5147B62A0CB084225A45E91A7B75A /* Pods-CubeEngine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeEngine_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4121324182F6DEF59CB17ED8E69A9D0D /* CubeCallPeer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeCallPeer.h; path = CubeEngine/Classes/include/CubeCallPeer.h; sourceTree = "<group>"; };
-		413CB01052361A8CFECEAECE6E0AA4E5 /* libCubeEngineRelease.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCubeEngineRelease.a; path = CubeEngine/Libraries/libCubeEngineRelease.a; sourceTree = "<group>"; };
-		42BE7BACA57154DF570673B6A74A4BC0 /* CubePeer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubePeer.h; path = CubeEngine/Classes/include/CubePeer.h; sourceTree = "<group>"; };
+		3FDD3BC492A0CF9312CC66795B005994 /* CubeInstructionService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeInstructionService.h; sourceTree = "<group>"; };
+		40CCED2FBF5232B0B495EE7CA6F79E2D /* RTCLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCLogging.h; sourceTree = "<group>"; };
+		41BF25C64569FD95299174B9DC3BBD60 /* GroupContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GroupContext.h; sourceTree = "<group>"; };
+		4332A10DD911A538FD82BA24D0C4821A /* RTCRtpParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCRtpParameters.h; sourceTree = "<group>"; };
 		44BD9C60C16AFD41F6B1BBCDAD0E1D4C /* Pods-CubeEngine_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CubeEngine_Example-dummy.m"; sourceTree = "<group>"; };
-		472E23F9DCB897DD5052DEBAA88735C4 /* CubeVideoClipMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeVideoClipMessage.h; path = CubeEngine/Classes/include/CubeVideoClipMessage.h; sourceTree = "<group>"; };
-		516183E28ADFDADBAAEA4E2A595D338E /* CubeWhiteboardClipMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeWhiteboardClipMessage.h; path = CubeEngine/Classes/include/CubeWhiteboardClipMessage.h; sourceTree = "<group>"; };
-		54BA8387302CB7BDB846B7BA39CF366A /* CubeContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeContact.h; path = CubeEngine/Classes/include/CubeContact.h; sourceTree = "<group>"; };
-		56AA67DA2137CB2951BF8615228EEB43 /* CubeWhiteboardFrameMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeWhiteboardFrameMessage.h; path = CubeEngine/Classes/include/CubeWhiteboardFrameMessage.h; sourceTree = "<group>"; };
-		5D44DEFC4C3527909B4FA37A7FB501AA /* CubeCallType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeCallType.h; path = CubeEngine/Classes/include/CubeCallType.h; sourceTree = "<group>"; };
-		5D711E74FC699F78F3DC287D11754CE8 /* CubeWhiteboardMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeWhiteboardMessage.h; path = CubeEngine/Classes/include/CubeWhiteboardMessage.h; sourceTree = "<group>"; };
+		461BD8135E297232DC1007179977C84A /* RTCSessionDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCSessionDescription.h; sourceTree = "<group>"; };
+		4937B159C7049CAD54574D12F9F2FA4A /* RTCVideoDecoderFactoryH264.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoDecoderFactoryH264.h; sourceTree = "<group>"; };
+		4BB58EDF4816DB100E2EFE8C3E6FD50A /* RTCVideoEncoderH264.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoEncoderH264.h; sourceTree = "<group>"; };
+		4FD34921A59BABDFF4C38E4051803FED /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		515D02A2660B6256A47B3F5A5045347D /* RTCVideoCodecInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoCodecInfo.h; sourceTree = "<group>"; };
+		532218B2CF517E1DE7112A0E38738A95 /* RTCVideoDecoderH264.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoDecoderH264.h; sourceTree = "<group>"; };
+		53BF8B7C0FCFDEF61E8B413186F4881D /* SmartMemberControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartMemberControl.h; sourceTree = "<group>"; };
+		53C56FEA962FF2482AAC28D419F6193C /* RTCRtpFragmentationHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCRtpFragmentationHeader.h; sourceTree = "<group>"; };
+		558D54A16B4815AA17411BBE7140EE1D /* CubeRecordVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeRecordVideoView.h; sourceTree = "<group>"; };
+		5B715F06CC9E138E643559967446E475 /* RTCCryptoOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCCryptoOptions.h; sourceTree = "<group>"; };
+		5C54809B3770B59BEC943B0030FC6D6F /* CubeWhiteBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeWhiteBoard.h; sourceTree = "<group>"; };
 		5E1E3120C83E1CCAAEC36E7D143FFE26 /* Pods-CubeEngine_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubeEngine_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5E2A5F87CC92C06943442ABC1FE68EFC /* CubeConferenceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeConferenceConfig.h; path = CubeEngine/Classes/include/CubeConferenceConfig.h; sourceTree = "<group>"; };
-		5EFAF41D3F3440CDC7343775B1E0AFC6 /* time_adpter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = time_adpter.h; path = CubeEngine/Classes/include/time_adpter.h; sourceTree = "<group>"; };
-		603BBC9748212AFA08F846382966A7D5 /* CubeSettingService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeSettingService.h; path = CubeEngine/Classes/include/CubeSettingService.h; sourceTree = "<group>"; };
-		631B2940C3B523E7637828E3F4962537 /* mztools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mztools.h; path = CubeEngine/Classes/include/mztools.h; sourceTree = "<group>"; };
-		67C20B1BCC759A1AAA4E9136FB0B47ED /* CubeWhiteboardService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeWhiteboardService.h; path = CubeEngine/Classes/include/CubeWhiteboardService.h; sourceTree = "<group>"; };
-		68D9DB1905B79B630FCBF6C3F71421ED /* Receiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Receiver.h; path = CubeEngine/Classes/include/Receiver.h; sourceTree = "<group>"; };
-		6AACBCDB02E04322A4024497FB8E1037 /* CubeContactService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeContactService.h; path = CubeEngine/Classes/include/CubeContactService.h; sourceTree = "<group>"; };
-		6D9F11FFE75A2A134881D28A33CAFF95 /* SmartConference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartConference.h; path = CubeEngine/Classes/include/SmartConference.h; sourceTree = "<group>"; };
-		6E132AD82304366EE281FAE13010AF89 /* CubeFileService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeFileService.h; path = CubeEngine/Classes/include/CubeFileService.h; sourceTree = "<group>"; };
-		70266FD3B0A7F682EF3A69CA814CDE44 /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = CubeEngine/Classes/include/unzip.h; sourceTree = "<group>"; };
-		72DF31B65EB250AD10749FA6DBCB4763 /* Peer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Peer.h; path = CubeEngine/Classes/include/Peer.h; sourceTree = "<group>"; };
-		7382E5678A8C66D7E6571620C654ED4B /* CubeEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeEngine.h; path = CubeEngine/Classes/include/CubeEngine.h; sourceTree = "<group>"; };
-		7734FF509B29DF24CA67298A98D30937 /* CubeNotifySetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeNotifySetting.h; path = CubeEngine/Classes/include/CubeNotifySetting.h; sourceTree = "<group>"; };
-		790D23173BFD469A5DCB82F4A25789CF /* CubeEngineDeprecationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeEngineDeprecationMacros.h; path = CubeEngine/Classes/include/CubeEngineDeprecationMacros.h; sourceTree = "<group>"; };
-		792A1ED3F3C84BFF7F71E7C1EC0C352E /* CubeReplyMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeReplyMessage.h; path = CubeEngine/Classes/include/CubeReplyMessage.h; sourceTree = "<group>"; };
-		7B49017D3D14EB0AEA6C486269BBBA19 /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = CubeEngine/Classes/include/ioapi.h; sourceTree = "<group>"; };
+		6106B7E30F9BE050EE218BD2A2958383 /* CubeMediaType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeMediaType.h; sourceTree = "<group>"; };
+		62D94B008D14114190ABC12348E5CBAB /* UIDevice+RTCDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+RTCDevice.h"; sourceTree = "<group>"; };
+		63743E1C2BC6EA4177CC55B6595FEDC4 /* RTCPeerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnection.h; sourceTree = "<group>"; };
+		6468BE1699088A62B40D44E7B5581F00 /* CubeResponderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeResponderDelegate.h; sourceTree = "<group>"; };
+		65FE6862AA56FDB6D06FF9C113C80E36 /* RTCVideoEncoderFactoryH264.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoEncoderFactoryH264.h; sourceTree = "<group>"; };
+		66F9C94915155E0A5733AD9C85C7B5FC /* CubeMediaService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeMediaService.h; sourceTree = "<group>"; };
+		66FE153F075DAC2115E00F38B9077389 /* CubeMessageService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeMessageService.h; sourceTree = "<group>"; };
+		696A8A5155E2F155F0E69993E64D641D /* CubeCallPeer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeCallPeer.h; sourceTree = "<group>"; };
+		69CE4119E2F37EAC48B1C9FB5C0BF265 /* CubeLiveInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeLiveInfo.h; sourceTree = "<group>"; };
+		6A31B0BF3192DD3EE46D68F034F8FF9C /* CubeRecallInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeRecallInfo.h; sourceTree = "<group>"; };
+		6CD008DFD31571256D815D7608AEA6DD /* RTCMTLVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCMTLVideoView.h; sourceTree = "<group>"; };
+		6D22A3238DC91C8FDE42B52F7F389EF5 /* RTCCVPixelBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCCVPixelBuffer.h; sourceTree = "<group>"; };
+		6DF4B78BCB7737749BFE09434EFE4A43 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Starscream.framework; sourceTree = "<group>"; };
+		6E69E98D8F2DF5F29F43240B5195C645 /* RTCRtcpParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCRtcpParameters.h; sourceTree = "<group>"; };
+		6F7369B0CFCCA4F659FDE20CA40B2C55 /* CubeInstruction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeInstruction.h; sourceTree = "<group>"; };
+		6F853513797AF3C49554208731D47C12 /* CubeAccountService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeAccountService.h; sourceTree = "<group>"; };
+		71A2FA49C069F89CD5605F46FFA5C97B /* RTCVideoFrameBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoFrameBuffer.h; sourceTree = "<group>"; };
+		72383608E8C0181AA8A2692E4D450BDE /* RTCPeerConnectionFactoryOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnectionFactoryOptions.h; sourceTree = "<group>"; };
+		72391883F50D43B0E2A22275F8153445 /* CubeFileInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeFileInfo.h; sourceTree = "<group>"; };
+		742C6A5663EC47179198A94559D52D61 /* RTCVideoDecoderVP8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoDecoderVP8.h; sourceTree = "<group>"; };
+		7537B71B3F8925622426F73FDE2B77EA /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		7537E750AEA543E2E7F0FB498B59C506 /* RTCDataChannelConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCDataChannelConfiguration.h; sourceTree = "<group>"; };
+		76E3E8AC2ABA48990CEDEB78C35C5235 /* CubePrerequisites.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubePrerequisites.h; sourceTree = "<group>"; };
+		76FE443600F5D805675B548FDCDB6BCA /* CubeContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeContact.h; sourceTree = "<group>"; };
+		7AABA5FE46D5B1EBE54BDEA70628A7B0 /* libCubeEngineRelease.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCubeEngineRelease.a; path = ../Libraries/libCubeEngineRelease.a; sourceTree = "<group>"; };
+		7B7A346AD570DC52F210741C239BF06F /* RTCMutableYUVPlanarBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCMutableYUVPlanarBuffer.h; sourceTree = "<group>"; };
 		7B94804897443B490885615220F24FB8 /* Pods-CubeEngine_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CubeEngine_Example-umbrella.h"; sourceTree = "<group>"; };
+		7BD657B22EEE4FB7BB51D682C456F00F /* RTCVideoSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoSource.h; sourceTree = "<group>"; };
+		7D69B7CEE5A0C5CFE5D3969EA7A9C18F /* RTCDefaultVideoDecoderFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCDefaultVideoDecoderFactory.h; sourceTree = "<group>"; };
+		7DA74D8542BB9578526239CF26A8B8DC /* CubeRemoteDesktopService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeRemoteDesktopService.h; sourceTree = "<group>"; };
 		7E6CD0B2D89975C1FC7ADA3DAA6FCFBE /* Pods-CubeEngine_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CubeEngine_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8635A3A3F6160E93E1F3EC74E036C5E0 /* CubeRemoteDesktopService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeRemoteDesktopService.h; path = CubeEngine/Classes/include/CubeRemoteDesktopService.h; sourceTree = "<group>"; };
-		8DA4E2F55B0F950B50FD28187DF5AF75 /* CubeDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeDeviceInfo.h; path = CubeEngine/Classes/include/CubeDeviceInfo.h; sourceTree = "<group>"; };
-		8E1D688D170501FA0F9515536F902EC9 /* CubeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeDelegate.h; path = CubeEngine/Classes/include/CubeDelegate.h; sourceTree = "<group>"; };
+		7F07F8E36367A81CD2BF529C8A6E7B44 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SocketIO.framework; sourceTree = "<group>"; };
+		8150A8AA3926E4FFB2106D4695DE5470 /* RTCYUVPlanarBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCYUVPlanarBuffer.h; sourceTree = "<group>"; };
+		83D2F7ACC2FE360043AB47AAED9F124C /* CubeGroupService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeGroupService.h; sourceTree = "<group>"; };
+		84DED4BF98432141970D7DEECB37AC59 /* CubeCardMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeCardMessage.h; sourceTree = "<group>"; };
+		855B0308281BDC864DAFD79FD45747B3 /* SmartMember.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartMember.h; sourceTree = "<group>"; };
+		8683A50F7DAA82B0B94498F878E9CA61 /* CubeSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeSession.h; sourceTree = "<group>"; };
+		86B008B5680C52EE6F5A89BBD6DF949E /* RTCDefaultVideoEncoderFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCDefaultVideoEncoderFactory.h; sourceTree = "<group>"; };
+		8862C67E8D8B4750849B08E10C0D9C0A /* RTCStatisticsReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCStatisticsReport.h; sourceTree = "<group>"; };
+		8DEEDD0559CBE22E4FDF02AA0C7A7C0A /* CubeImageMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeImageMessage.h; sourceTree = "<group>"; };
 		8F47402F89F7B607DDE7F22677A82AED /* Pods-CubeEngine_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubeEngine_Tests-Info.plist"; sourceTree = "<group>"; };
-		93159062CB04100543232CDCEAD0FAC0 /* CubeWhiteboardSlide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeWhiteboardSlide.h; path = CubeEngine/Classes/include/CubeWhiteboardSlide.h; sourceTree = "<group>"; };
-		96A18B631BBAE34D36313DB3B0448FC2 /* SmartConferenceStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartConferenceStream.h; path = CubeEngine/Classes/include/SmartConferenceStream.h; sourceTree = "<group>"; };
-		9C4E09BF183D9A099BA0AAC0B117F5F4 /* CubeSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeSession.h; path = CubeEngine/Classes/include/CubeSession.h; sourceTree = "<group>"; };
+		9061C3FA6C1C04F90CB6F87D05849276 /* RTCPeerConnectionFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnectionFactory.h; sourceTree = "<group>"; };
+		92AEF35F30CA4CEE1E60B7B58A47C78B /* CubeFileManagerService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeFileManagerService.h; sourceTree = "<group>"; };
+		92FEFFBAC7ECD1E83F5B174AC7A8E129 /* SmartConference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartConference.h; sourceTree = "<group>"; };
+		95DF1BB3787F2B6AA9F057135DD6624A /* RTCMetrics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCMetrics.h; sourceTree = "<group>"; };
+		95EE29C8589C8B06A0C72710D7C99BC8 /* RTCMediaConstraints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCMediaConstraints.h; sourceTree = "<group>"; };
+		96D941124C39E774D37C7051A571EEF0 /* RTCDataChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCDataChannel.h; sourceTree = "<group>"; };
+		97A17418B23B8F6115EB4435689BA64E /* CubeEngine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CubeEngine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		980D9C3AA926C1EFDC1BDE1556F1E4F5 /* CubeVideoClipMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeVideoClipMessage.h; sourceTree = "<group>"; };
+		9851D905E3722B00A652E61302770A59 /* RTCCodecSpecificInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCCodecSpecificInfo.h; sourceTree = "<group>"; };
+		98F81504E702D7175AC4DF77C499FF1E /* CubeLiveService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeLiveService.h; sourceTree = "<group>"; };
+		99E3804527A61D1324AA4FDCE65B6E2A /* RTCVideoEncoderVP9.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoEncoderVP9.h; sourceTree = "<group>"; };
+		9A2CACFFBD9417592EF81FA01A039030 /* RTCCameraPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCCameraPreviewView.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A11BF76A3A9DB63792612138A84D0D5E /* CubeConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeConfig.h; path = CubeEngine/Classes/include/CubeConfig.h; sourceTree = "<group>"; };
-		A138F9E3D9B695B9AEA42CF90EA0B5F2 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = CubeEngine/Frameworks/WebRTC.framework; sourceTree = "<group>"; };
-		A9B72C0A0EC76B0563C864A06AB9C071 /* CubeResponderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeResponderDelegate.h; path = CubeEngine/Classes/include/CubeResponderDelegate.h; sourceTree = "<group>"; };
-		ABFDF952BF540012DA926AC67FB302C1 /* SmartConferenceService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartConferenceService.h; path = CubeEngine/Classes/include/SmartConferenceService.h; sourceTree = "<group>"; };
-		B39FBC81667F5F9202444E749CDF6026 /* CubeCardContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeCardContent.h; path = CubeEngine/Classes/include/CubeCardContent.h; sourceTree = "<group>"; };
+		9DC5B6D8428689F816650461FE06EF18 /* CubePeer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubePeer.h; sourceTree = "<group>"; };
+		9F3B87F95CEA021DFD63F8C69B6CFA72 /* SmartMemberRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartMemberRole.h; sourceTree = "<group>"; };
+		9FA40417ADADF934E7EFD2895234850C /* RTCVideoEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoEncoder.h; sourceTree = "<group>"; };
+		A159B9D616C0BFE782DB3EBB7974DB6F /* RTCEAGLVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCEAGLVideoView.h; sourceTree = "<group>"; };
+		A2059A0563F5C88DD86EBC0E69456829 /* CubeEngineDeprecationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeEngineDeprecationMacros.h; sourceTree = "<group>"; };
+		A22B36765AE31BAB3314D31B9A2024F8 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		A316F821A9B4D378E464ED54A4A666AC /* CubeCustomMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeCustomMessage.h; sourceTree = "<group>"; };
+		A434DAE470BEB4FBBD53CF24E3ACE5C4 /* RTCEncodedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCEncodedImage.h; sourceTree = "<group>"; };
+		A5D795B941C7B28C06DA4E457738A6F3 /* RTCRtpHeaderExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCRtpHeaderExtension.h; sourceTree = "<group>"; };
+		A6441CD8A3B860A0209220C35D04F2C6 /* RTCVideoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoTrack.h; sourceTree = "<group>"; };
+		A6A3AA5AF4641AE76665802681B54240 /* CubeWhiteboardSlide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeWhiteboardSlide.h; sourceTree = "<group>"; };
+		A83CE29DB79CB9887B9CB81FCEA2FE03 /* RTCNativeMutableI420Buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCNativeMutableI420Buffer.h; sourceTree = "<group>"; };
+		A903FA79B20D69CDF79AD6AB9655AD4C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A9515E35D6D094B80D8E6DC53721C53D /* CubeContactService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeContactService.h; sourceTree = "<group>"; };
+		ABA3471E0FC2E29AE05799A8B4868D31 /* Cube.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		AC1C2BC001A4BBD87FC3D4E521D4A337 /* WebRTC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebRTC.h; sourceTree = "<group>"; };
+		AC8A5F75E472864C1B3AA6CAD689C103 /* CubePredictorResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubePredictorResult.h; sourceTree = "<group>"; };
+		ADABA2F5607EAEF22A7D652FFD02914F /* CubeConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeConfig.h; sourceTree = "<group>"; };
+		AE1CD36840A239A9519BA016CA45FD2D /* RTCRtpEncodingParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCRtpEncodingParameters.h; sourceTree = "<group>"; };
+		B07FED6707746037447EA8375304A9D5 /* CubeRemoteDesktop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeRemoteDesktop.h; sourceTree = "<group>"; };
+		B3D86D11637D3BAC1ABBC6510992C6F7 /* RTCAudioTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCAudioTrack.h; sourceTree = "<group>"; };
 		B3EF389BC27012C224865DA214CF7EF0 /* Pods-CubeEngine_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeEngine_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B3F5B36BB1133E930B8B52C50D1E1C4B /* Pods-CubeEngine_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CubeEngine_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B406B57D2A27586B04CCA950A2A4BDA0 /* CubeRichContentMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeRichContentMessage.h; path = CubeEngine/Classes/include/CubeRichContentMessage.h; sourceTree = "<group>"; };
+		B413C1131A82B992A793B6483E6FC74D /* RTCMetricsSampleInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCMetricsSampleInfo.h; sourceTree = "<group>"; };
 		B43316214761BE6A260A91EF4C8F2CB9 /* Pods-CubeEngine_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CubeEngine_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B554C4D4096280AE8A51C718ED52C390 /* CubeInstructionRequestedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeInstructionRequestedResult.h; path = CubeEngine/Classes/include/CubeInstructionRequestedResult.h; sourceTree = "<group>"; };
-		B570025AFF56F34EDADDAB8213AD43CD /* SmartMacroDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartMacroDefine.h; path = CubeEngine/Classes/include/SmartMacroDefine.h; sourceTree = "<group>"; };
-		B84C7D83034C9708983F03425C3EAF04 /* CubeInstructionService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeInstructionService.h; path = CubeEngine/Classes/include/CubeInstructionService.h; sourceTree = "<group>"; };
-		B90A9B6BADEC24114DB42AD35F3C8459 /* CubeFileMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeFileMessage.h; path = CubeEngine/Classes/include/CubeFileMessage.h; sourceTree = "<group>"; };
-		BC2B8436E77337067119DD9CCE836A24 /* CubeFileManagerService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeFileManagerService.h; path = CubeEngine/Classes/include/CubeFileManagerService.h; sourceTree = "<group>"; };
+		B65E5A8E3C58DBEFB88F3CA4881BBEF5 /* RTCRtpTransceiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCRtpTransceiver.h; sourceTree = "<group>"; };
+		B65EFAD9FD007DC1E3E52EE06DA9891B /* RTCMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCMacros.h; sourceTree = "<group>"; };
+		B6F60777707A2899B86AE810CE0C61E9 /* CubeConferenceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeConferenceConfig.h; sourceTree = "<group>"; };
+		BA2B7D610F839F73F9776A791021A50D /* SmartConferenceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartConferenceConfig.h; sourceTree = "<group>"; };
+		BAC104B4CF016199C3A40E053AB31F03 /* CubeRemoteVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeRemoteVideoView.h; sourceTree = "<group>"; };
+		BB8A47C6D11B91C622DF7DD1EAB74F88 /* CubeEngine.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CubeEngine.xcconfig; sourceTree = "<group>"; };
+		BBC6A89A0D5AF6862B282F9A44456E87 /* RTCVideoEncoderSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoEncoderSettings.h; sourceTree = "<group>"; };
+		BC606523CD41997B7A07F985702BB20E /* SmartConferenceStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartConferenceStream.h; sourceTree = "<group>"; };
 		BCC6BDDD15FB525B41E5E0A75ED012DC /* Pods-CubeEngine_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubeEngine_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BCDEB593872E8367BF5557657A43E9B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		BDA16B67880E5D13AD2F2854CC2A4EF1 /* SmartConferenceEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartConferenceEnum.h; path = CubeEngine/Classes/include/SmartConferenceEnum.h; sourceTree = "<group>"; };
-		BF695EDB0F2CFD1F8AC2652D0C1AA8DF /* SmartConferenceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartConferenceConfig.h; path = CubeEngine/Classes/include/SmartConferenceConfig.h; sourceTree = "<group>"; };
-		BF946C59821314C1FEF59978E6EAC57F /* CubeWhiteBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeWhiteBoard.h; path = CubeEngine/Classes/include/CubeWhiteBoard.h; sourceTree = "<group>"; };
-		C0CEE3CEBC8B9C32E6053424B55DD6CE /* CubeWhiteboardFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeWhiteboardFile.h; path = CubeEngine/Classes/include/CubeWhiteboardFile.h; sourceTree = "<group>"; };
-		C2671ABB68C668D9600B985361E0B5B4 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = CubeEngine/Frameworks/SocketIO.framework; sourceTree = "<group>"; };
-		C83F9C1CB19F1A02DC9AEBDB8C4DE4C2 /* CubeRecallInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeRecallInfo.h; path = CubeEngine/Classes/include/CubeRecallInfo.h; sourceTree = "<group>"; };
-		C85EFB59A3E524928DEE40C636ABD9E7 /* CubeErrorInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeErrorInfo.h; path = CubeEngine/Classes/include/CubeErrorInfo.h; sourceTree = "<group>"; };
-		C8D90C4BC9762D033EE9620A80615AF7 /* CubeCustomMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeCustomMessage.h; path = CubeEngine/Classes/include/CubeCustomMessage.h; sourceTree = "<group>"; };
-		C9DD67C1A08C665FA26596F4D0DCC6AD /* CubePrerequisites.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubePrerequisites.h; path = CubeEngine/Classes/include/CubePrerequisites.h; sourceTree = "<group>"; };
-		CB15406CC4D55148F438555C2A4212EB /* CubeVoiceClipMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeVoiceClipMessage.h; path = CubeEngine/Classes/include/CubeVoiceClipMessage.h; sourceTree = "<group>"; };
-		CB49C6BEEEC6AF5229B7DE4942B2CDD7 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = CubeEngine/Classes/include/zip.h; sourceTree = "<group>"; };
-		CBE029D4586A1D3C2CEAC229AB98B727 /* CubeConferenceStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeConferenceStream.h; path = CubeEngine/Classes/include/CubeConferenceStream.h; sourceTree = "<group>"; };
+		BD007B1ECFCB46E05DF0435E7DF18DAE /* RTCI420Buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCI420Buffer.h; sourceTree = "<group>"; };
+		BEF50979858214294B4FF7E8805FBA8D /* CubeWhiteboardService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeWhiteboardService.h; sourceTree = "<group>"; };
+		BF0E04472E7B0116DE9D6BB818F9C0C3 /* RTCDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCDispatcher.h; sourceTree = "<group>"; };
+		C04A37C5044B111A26BE7AD3CC611C23 /* RTCRtpCodecParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCRtpCodecParameters.h; sourceTree = "<group>"; };
+		C0D8678F05A449B38231E90EFD9153AA /* CubeCallType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeCallType.h; sourceTree = "<group>"; };
+		C17A50D1DFD15599BC8EAC6C2E6808C4 /* RTCAudioSessionConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCAudioSessionConfiguration.h; sourceTree = "<group>"; };
+		C1FBCB7396D44B1D42A80DD2483B13F6 /* RTCICEServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCICEServer.h; sourceTree = "<group>"; };
+		C31D2AD78D8CA5C44A3144B61B498138 /* RTCVideoDecoderFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoDecoderFactory.h; sourceTree = "<group>"; };
+		C547B28347B9BC68FEA96139DDFE428A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C80738B0C114AED1020D807EA2D0D1A2 /* Sender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Sender.h; sourceTree = "<group>"; };
+		CA12DB2181EEC2A8F08F48DB489ED623 /* RTCNativeI420Buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCNativeI420Buffer.h; sourceTree = "<group>"; };
+		CA949A8FCB1158A8DA968D60948ACFD7 /* CubeConferenceStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeConferenceStream.h; sourceTree = "<group>"; };
+		CCD058377EB964654BDB03E7F1FC58D1 /* SmartMediaStats.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartMediaStats.h; sourceTree = "<group>"; };
 		CD6BD51FA020A8D1ACE88C70F793A83A /* Pods-CubeEngine_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeEngine_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CF3B51C5C794C9EB76F8A46878DE4955 /* CubeMediaProbe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeMediaProbe.h; path = CubeEngine/Classes/include/CubeMediaProbe.h; sourceTree = "<group>"; };
-		CF6C0A709A1433F5858077B31E52DE2E /* CubeEngine.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CubeEngine.xcconfig; sourceTree = "<group>"; };
-		D420D12202B5AF254A994146ECB62304 /* MessageEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MessageEntity.h; path = CubeEngine/Classes/include/MessageEntity.h; sourceTree = "<group>"; };
-		D8204A3CE41E13B46BE44DD1DDA52021 /* SmartMediaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartMediaData.h; path = CubeEngine/Classes/include/SmartMediaData.h; sourceTree = "<group>"; };
-		D8B2F487556BB158A32D6BC8981A4509 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CD8263F4E602B1A0BD0A61BD02763671 /* Receiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Receiver.h; sourceTree = "<group>"; };
+		CE32FC26EF4EB170FC8FAB9C624CFF68 /* RTCVideoEncoderVP8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoEncoderVP8.h; sourceTree = "<group>"; };
+		D2E0B5EFD6CA8487F75E2DD7E08AE1EA /* Conference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Conference.h; sourceTree = "<group>"; };
+		D6742137D676CA5372027D5DDEA02608 /* CubeRichContentMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeRichContentMessage.h; sourceTree = "<group>"; };
+		D737FC75B50177ED84317E6AC12D2CDA /* RTCMutableI420Buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCMutableI420Buffer.h; sourceTree = "<group>"; };
+		D7BD759C3441A5DA481E4509D5C1A570 /* ZipArchiveUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZipArchiveUtils.h; sourceTree = "<group>"; };
+		D85B6B8DB244130C9DD56CE9FAB6D002 /* CubeEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeEngine.h; sourceTree = "<group>"; };
 		D91AB69826E852B4D3FB396071C5E8A7 /* Pods-CubeEngine_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CubeEngine_Tests.modulemap"; sourceTree = "<group>"; };
-		D95ED1DFF4FD960A36847EE229BA9955 /* CubeInstruction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeInstruction.h; path = CubeEngine/Classes/include/CubeInstruction.h; sourceTree = "<group>"; };
-		DBD1CAA104B80DE6CAEE9EF14FDF7BB6 /* CubeRemoteView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeRemoteView.h; path = CubeEngine/Classes/include/CubeRemoteView.h; sourceTree = "<group>"; };
-		DCA68C2A4CA591C8296395E2EF40CFB5 /* ZipArchiveUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchiveUtils.h; path = CubeEngine/Classes/include/ZipArchiveUtils.h; sourceTree = "<group>"; };
+		DB0702A1ED790BA26C48BABF2DC66BE3 /* CubeWhiteboardFrameMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeWhiteboardFrameMessage.h; sourceTree = "<group>"; };
+		DB1E24F0D0886E10F2220AECAD5E288F /* RTCVideoCodecConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoCodecConstants.h; sourceTree = "<group>"; };
+		DC5CE911AA11FFDEBE3352F6DBCF7E36 /* CubeReplyMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeReplyMessage.h; sourceTree = "<group>"; };
 		DCDC94848BC05C70B739B855B3E2AA81 /* Pods_CubeEngine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CubeEngine_Tests.framework; path = "Pods-CubeEngine_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E194E4AE3177E555B3150830D0E56AAE /* Sender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sender.h; path = CubeEngine/Classes/include/Sender.h; sourceTree = "<group>"; };
-		E2BBC5C9C7C48A9BCA975B25EBE2E679 /* CubeTextMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeTextMessage.h; path = CubeEngine/Classes/include/CubeTextMessage.h; sourceTree = "<group>"; };
-		E3CABFAE3978F8E46CAD0AE5B24B8B1A /* CubeMediaService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeMediaService.h; path = CubeEngine/Classes/include/CubeMediaService.h; sourceTree = "<group>"; };
-		E65A19B6526D4B7008AC76FA4F81901E /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = CubeEngine/Classes/include/crypt.h; sourceTree = "<group>"; };
-		E9337B65E190FA4B77B0BB258BCA3DBC /* CubeCallEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeCallEnum.h; path = CubeEngine/Classes/include/CubeCallEnum.h; sourceTree = "<group>"; };
+		DD20C70964BB757FE752D89971A8D68A /* RTCCallbackLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCCallbackLogger.h; sourceTree = "<group>"; };
+		DF223EFED8F9299497B9A2D7006581E4 /* RemoteViewDataDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RemoteViewDataDelegate.h; sourceTree = "<group>"; };
+		E197295668356A221F9830B137CBDABC /* CubeLocationMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeLocationMessage.h; sourceTree = "<group>"; };
+		E27F180BB04E7599EF89F8A59C63355C /* RTCVideoEncoderQpThresholds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoEncoderQpThresholds.h; sourceTree = "<group>"; };
+		E3A5A8E692E1CB662742EF1CA0CBFF7C /* RTCFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCFileLogger.h; sourceTree = "<group>"; };
+		E465F82A90FB88F97A7023833274B43F /* RTCMediaSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCMediaSource.h; sourceTree = "<group>"; };
+		E5269A162418E5678EEB17521048DDC2 /* RTCConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCConfiguration.h; sourceTree = "<group>"; };
+		E7740A2612EE918B77FD67BCCFC4CDB8 /* CubeVoiceClipMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeVoiceClipMessage.h; sourceTree = "<group>"; };
 		E99DDC04F66BB2DE459E167D750E9033 /* Pods-CubeEngine_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeEngine_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EF3B0148B8EDA6BF530B374F05A204F3 /* CubeLocationMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeLocationMessage.h; path = CubeEngine/Classes/include/CubeLocationMessage.h; sourceTree = "<group>"; };
-		EFB89E4D1565C2019C36109079B8EA7E /* CubeCallService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeCallService.h; path = CubeEngine/Classes/include/CubeCallService.h; sourceTree = "<group>"; };
-		F3E9605234C8A810906754DE857C8EC6 /* CubeMediaType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeMediaType.h; path = CubeEngine/Classes/include/CubeMediaType.h; sourceTree = "<group>"; };
-		F66179BEAA5B332AC89171B319FA7CBB /* CubeRecordVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeRecordVideoView.h; path = CubeEngine/Classes/include/CubeRecordVideoView.h; sourceTree = "<group>"; };
-		FB894ABE314702FAA9C8068CD3D9D079 /* SmartMediaStats.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartMediaStats.h; path = CubeEngine/Classes/include/SmartMediaStats.h; sourceTree = "<group>"; };
-		FD99A9393B1B91FAA7AD9B84097A5BA0 /* CubeFileInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeFileInfo.h; path = CubeEngine/Classes/include/CubeFileInfo.h; sourceTree = "<group>"; };
+		E9B0DB8CDB5D6B2C8985CD351CC6021A /* CubeDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeDeviceInfo.h; sourceTree = "<group>"; };
+		EBCF0723E916CACECAFCA6069BE80557 /* CubeCallService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeCallService.h; sourceTree = "<group>"; };
+		EC0B0BA87E7C8A7174A3E113AD989FAC /* CubeInstructionRequestedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeInstructionRequestedResult.h; sourceTree = "<group>"; };
+		EFB887E195932F3F51FD799B632AA077 /* RTCAudioSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCAudioSource.h; sourceTree = "<group>"; };
+		F002A674CAE49C50E58D60D1EA452E43 /* CubeErrorInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeErrorInfo.h; sourceTree = "<group>"; };
+		F0CF0FF17E1042333247A07CB3A3BE86 /* CubeWhiteboardMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeWhiteboardMessage.h; sourceTree = "<group>"; };
+		F10B1D8A08181C8608D24E0E46C45A6B /* RTCLegacyStatsReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCLegacyStatsReport.h; sourceTree = "<group>"; };
+		F412481F9CDA1548BB3DD0507049209F /* CubePlayVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubePlayVideoView.h; sourceTree = "<group>"; };
+		F474843E15B7FBA7387AF372D834FE4C /* RTCRtpSender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCRtpSender.h; sourceTree = "<group>"; };
+		F9315267C83D934262F9C95DCB6B2956 /* CubeHistoryMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeHistoryMessage.h; sourceTree = "<group>"; };
+		FDF8EB38F003A1F0EE64D3D1C652BDCA /* RTCVideoFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCVideoFrame.h; sourceTree = "<group>"; };
+		FDFBA86D8F2C3F06D897ACCE2CF43808 /* CubeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CubeDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +272,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06C69F38DA03701E715A84924DF45367 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C434CA040A27B9EB4EC211FCA954ECF /* CubeEngine */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		116FE867991AD65BB46F83B9989EBE0F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,136 +305,26 @@
 			path = "Target Support Files/Pods-CubeEngine_Tests";
 			sourceTree = "<group>";
 		};
-		17BB5F15378192B131AC738581D80049 /* Development Pods */ = {
+		26DDDDCEA8F91166B4FB032B69A7DAD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				33A70D506216D91089DCBFB1298ACFE0 /* CubeEngine */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		2B6448F6311ED3408C0AD806328C3796 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				413CB01052361A8CFECEAECE6E0AA4E5 /* libCubeEngineRelease.a */,
-				C2671ABB68C668D9600B985361E0B5B4 /* SocketIO.framework */,
-				1FFEB4C241BE2A37200531B7CF418C02 /* Starscream.framework */,
-				A138F9E3D9B695B9AEA42CF90EA0B5F2 /* WebRTC.framework */,
+				7AABA5FE46D5B1EBE54BDEA70628A7B0 /* libCubeEngineRelease.a */,
+				7F07F8E36367A81CD2BF529C8A6E7B44 /* SocketIO.framework */,
+				6DF4B78BCB7737749BFE09434EFE4A43 /* Starscream.framework */,
+				1D8B8CE94B9DD2DA50C32B9BDFFFD94E /* WebRTC.framework */,
+				2F438D1906F208623DA12DC6B309C68D /* WebRTC.framework */,
 			);
 			name = Frameworks;
+			path = CubeEngine/Frameworks;
 			sourceTree = "<group>";
 		};
-		3248FCC4427B57BBE8B84654DFB791E0 /* Pod */ = {
+		2F438D1906F208623DA12DC6B309C68D /* WebRTC.framework */ = {
 			isa = PBXGroup;
 			children = (
-				242222D2A21C25A1A7DB207E4AEA6B53 /* CubeEngine.podspec */,
-				D8B2F487556BB158A32D6BC8981A4509 /* LICENSE */,
-				BCDEB593872E8367BF5557657A43E9B8 /* README.md */,
+				A57B068BA585AAB32C193ADCE0BBB7DF /* Headers */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		33A70D506216D91089DCBFB1298ACFE0 /* CubeEngine */ = {
-			isa = PBXGroup;
-			children = (
-				2AC1EEE53BE8FD9C1796CD701252BF24 /* Conference.h */,
-				E65A19B6526D4B7008AC76FA4F81901E /* crypt.h */,
-				1277A04B022A871C46AB374BDF2770C9 /* Cube.h */,
-				2F190DA6CDB5C9E9AE62975B56E2B3D8 /* CubeAccountService.h */,
-				E9337B65E190FA4B77B0BB258BCA3DBC /* CubeCallEnum.h */,
-				4121324182F6DEF59CB17ED8E69A9D0D /* CubeCallPeer.h */,
-				EFB89E4D1565C2019C36109079B8EA7E /* CubeCallService.h */,
-				5D44DEFC4C3527909B4FA37A7FB501AA /* CubeCallType.h */,
-				B39FBC81667F5F9202444E749CDF6026 /* CubeCardContent.h */,
-				2BA2F748DB36846843AB85236D5E38E8 /* CubeCardMessage.h */,
-				5E2A5F87CC92C06943442ABC1FE68EFC /* CubeConferenceConfig.h */,
-				299DB3E846AD8AF270AF784943D7684B /* CubeConferenceService.h */,
-				CBE029D4586A1D3C2CEAC229AB98B727 /* CubeConferenceStream.h */,
-				A11BF76A3A9DB63792612138A84D0D5E /* CubeConfig.h */,
-				54BA8387302CB7BDB846B7BA39CF366A /* CubeContact.h */,
-				6AACBCDB02E04322A4024497FB8E1037 /* CubeContactService.h */,
-				C8D90C4BC9762D033EE9620A80615AF7 /* CubeCustomMessage.h */,
-				8E1D688D170501FA0F9515536F902EC9 /* CubeDelegate.h */,
-				8DA4E2F55B0F950B50FD28187DF5AF75 /* CubeDeviceInfo.h */,
-				7382E5678A8C66D7E6571620C654ED4B /* CubeEngine.h */,
-				790D23173BFD469A5DCB82F4A25789CF /* CubeEngineDeprecationMacros.h */,
-				C85EFB59A3E524928DEE40C636ABD9E7 /* CubeErrorInfo.h */,
-				FD99A9393B1B91FAA7AD9B84097A5BA0 /* CubeFileInfo.h */,
-				BC2B8436E77337067119DD9CCE836A24 /* CubeFileManagerService.h */,
-				B90A9B6BADEC24114DB42AD35F3C8459 /* CubeFileMessage.h */,
-				6E132AD82304366EE281FAE13010AF89 /* CubeFileService.h */,
-				2D74B7C083373C5E96F13FEB5A971EC2 /* CubeFileUtil.h */,
-				0C29795E6216A9976B0ABF28D27FA687 /* CubeGroupService.h */,
-				13DF8C091EB28955E852FE9462C2E169 /* CubeHistoryMessage.h */,
-				2604B1EC0C88F0CA0AF40C0EA12D94FF /* CubeImageMessage.h */,
-				D95ED1DFF4FD960A36847EE229BA9955 /* CubeInstruction.h */,
-				B554C4D4096280AE8A51C718ED52C390 /* CubeInstructionRequestedResult.h */,
-				B84C7D83034C9708983F03425C3EAF04 /* CubeInstructionService.h */,
-				057B39348B2032523E6C7AC5107FF4C8 /* CubeJSONObject.h */,
-				10B61013FA9930D744072F3C57BD8812 /* CubeLiveInfo.h */,
-				1D3B0C120F8F42BD40380D854525045F /* CubeLiveService.h */,
-				2627B466F9FDDCC69BD2B71EF46F3D37 /* CubeLocalVideoView.h */,
-				EF3B0148B8EDA6BF530B374F05A204F3 /* CubeLocationMessage.h */,
-				CF3B51C5C794C9EB76F8A46878DE4955 /* CubeMediaProbe.h */,
-				E3CABFAE3978F8E46CAD0AE5B24B8B1A /* CubeMediaService.h */,
-				F3E9605234C8A810906754DE857C8EC6 /* CubeMediaType.h */,
-				0ADE6A78D041979E4D864AB19BBB8607 /* CubeMessageService.h */,
-				7734FF509B29DF24CA67298A98D30937 /* CubeNotifySetting.h */,
-				42BE7BACA57154DF570673B6A74A4BC0 /* CubePeer.h */,
-				338A9B10CA809BA3DAE11C17898DEAD1 /* CubePlayVideoView.h */,
-				075FDAA77425F641CBA910B9991BEEBB /* CubePredictorResult.h */,
-				C9DD67C1A08C665FA26596F4D0DCC6AD /* CubePrerequisites.h */,
-				C83F9C1CB19F1A02DC9AEBDB8C4DE4C2 /* CubeRecallInfo.h */,
-				F66179BEAA5B332AC89171B319FA7CBB /* CubeRecordVideoView.h */,
-				3308EE2399743A2D6B57A0192CD0CAE0 /* CubeRemoteDesktop.h */,
-				8635A3A3F6160E93E1F3EC74E036C5E0 /* CubeRemoteDesktopService.h */,
-				1DCFA98DF646F0D4D07327135559244E /* CubeRemoteVideoView.h */,
-				DBD1CAA104B80DE6CAEE9EF14FDF7BB6 /* CubeRemoteView.h */,
-				792A1ED3F3C84BFF7F71E7C1EC0C352E /* CubeReplyMessage.h */,
-				A9B72C0A0EC76B0563C864A06AB9C071 /* CubeResponderDelegate.h */,
-				B406B57D2A27586B04CCA950A2A4BDA0 /* CubeRichContentMessage.h */,
-				9C4E09BF183D9A099BA0AAC0B117F5F4 /* CubeSession.h */,
-				603BBC9748212AFA08F846382966A7D5 /* CubeSettingService.h */,
-				E2BBC5C9C7C48A9BCA975B25EBE2E679 /* CubeTextMessage.h */,
-				472E23F9DCB897DD5052DEBAA88735C4 /* CubeVideoClipMessage.h */,
-				CB15406CC4D55148F438555C2A4212EB /* CubeVoiceClipMessage.h */,
-				BF946C59821314C1FEF59978E6EAC57F /* CubeWhiteBoard.h */,
-				516183E28ADFDADBAAEA4E2A595D338E /* CubeWhiteboardClipMessage.h */,
-				C0CEE3CEBC8B9C32E6053424B55DD6CE /* CubeWhiteboardFile.h */,
-				56AA67DA2137CB2951BF8615228EEB43 /* CubeWhiteboardFrameMessage.h */,
-				5D711E74FC699F78F3DC287D11754CE8 /* CubeWhiteboardMessage.h */,
-				67C20B1BCC759A1AAA4E9136FB0B47ED /* CubeWhiteboardService.h */,
-				93159062CB04100543232CDCEAD0FAC0 /* CubeWhiteboardSlide.h */,
-				0E5C2F21C30677D0BD843DB7730D02F5 /* GroupContext.h */,
-				7B49017D3D14EB0AEA6C486269BBBA19 /* ioapi.h */,
-				D420D12202B5AF254A994146ECB62304 /* MessageEntity.h */,
-				631B2940C3B523E7637828E3F4962537 /* mztools.h */,
-				72DF31B65EB250AD10749FA6DBCB4763 /* Peer.h */,
-				68D9DB1905B79B630FCBF6C3F71421ED /* Receiver.h */,
-				30E3EAC93038E6811291C6EA76B9720B /* RemoteViewDataDelegate.h */,
-				E194E4AE3177E555B3150830D0E56AAE /* Sender.h */,
-				6D9F11FFE75A2A134881D28A33CAFF95 /* SmartConference.h */,
-				BF695EDB0F2CFD1F8AC2652D0C1AA8DF /* SmartConferenceConfig.h */,
-				BDA16B67880E5D13AD2F2854CC2A4EF1 /* SmartConferenceEnum.h */,
-				ABFDF952BF540012DA926AC67FB302C1 /* SmartConferenceService.h */,
-				96A18B631BBAE34D36313DB3B0448FC2 /* SmartConferenceStream.h */,
-				0C0A27BAA1709BD4B0B6F63671238FAA /* SmartInviteFailure.h */,
-				B570025AFF56F34EDADDAB8213AD43CD /* SmartMacroDefine.h */,
-				D8204A3CE41E13B46BE44DD1DDA52021 /* SmartMediaData.h */,
-				FB894ABE314702FAA9C8068CD3D9D079 /* SmartMediaStats.h */,
-				276D4720EBDC22E3A7B50F5C79EFCC4D /* SmartMember.h */,
-				124EF4F9A4ACCE237E3E3236B4FA555C /* SmartMemberControl.h */,
-				2D611803D6128BFD039C2B54401F4535 /* SmartMemberRole.h */,
-				5EFAF41D3F3440CDC7343775B1E0AFC6 /* time_adpter.h */,
-				70266FD3B0A7F682EF3A69CA814CDE44 /* unzip.h */,
-				CB49C6BEEEC6AF5229B7DE4942B2CDD7 /* zip.h */,
-				DCA68C2A4CA591C8296395E2EF40CFB5 /* ZipArchiveUtils.h */,
-				2B6448F6311ED3408C0AD806328C3796 /* Frameworks */,
-				3248FCC4427B57BBE8B84654DFB791E0 /* Pod */,
-				475910F9EA9604EA6890E0B4B3C13CC8 /* Support Files */,
-			);
-			name = CubeEngine;
-			path = ../..;
+			name = WebRTC.framework;
+			path = WebRTC.framework;
 			sourceTree = "<group>";
 		};
 		3A4AF6DFEE2CB37F1F9BDFFA254AA525 /* Products */ = {
@@ -354,13 +336,126 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		475910F9EA9604EA6890E0B4B3C13CC8 /* Support Files */ = {
+		47508574896807BBC57623782709B06C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CF6C0A709A1433F5858077B31E52DE2E /* CubeEngine.xcconfig */,
+				FD986D172C590421249382722921DF74 /* include */,
+			);
+			name = Classes;
+			path = CubeEngine/Classes;
+			sourceTree = "<group>";
+		};
+		4E0919F5376F067B56C468D2A70D9E09 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB8A47C6D11B91C622DF7DD1EAB74F88 /* CubeEngine.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CubeEngine";
+			sourceTree = "<group>";
+		};
+		6C434CA040A27B9EB4EC211FCA954ECF /* CubeEngine */ = {
+			isa = PBXGroup;
+			children = (
+				47508574896807BBC57623782709B06C /* Classes */,
+				26DDDDCEA8F91166B4FB032B69A7DAD9 /* Frameworks */,
+				DE779EDFB2B7374A7D34A19CC691B768 /* Pod */,
+				4E0919F5376F067B56C468D2A70D9E09 /* Support Files */,
+			);
+			name = CubeEngine;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A57B068BA585AAB32C193ADCE0BBB7DF /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				39F267F5D60AE2E7FEDD0E46C6FBD6AA /* RTCAudioSession.h */,
+				C17A50D1DFD15599BC8EAC6C2E6808C4 /* RTCAudioSessionConfiguration.h */,
+				EFB887E195932F3F51FD799B632AA077 /* RTCAudioSource.h */,
+				B3D86D11637D3BAC1ABBC6510992C6F7 /* RTCAudioTrack.h */,
+				DD20C70964BB757FE752D89971A8D68A /* RTCCallbackLogger.h */,
+				9A2CACFFBD9417592EF81FA01A039030 /* RTCCameraPreviewView.h */,
+				215BF26DE48D0F9714A7454DF6E55879 /* RTCCameraVideoCapturer.h */,
+				0D65CBBA9CCCBFDFA1C25EFBDD6F801B /* RTCCertificate.h */,
+				9851D905E3722B00A652E61302770A59 /* RTCCodecSpecificInfo.h */,
+				3C54103E1B4876997298DED0D0E6D950 /* RTCCodecSpecificInfoH264.h */,
+				E5269A162418E5678EEB17521048DDC2 /* RTCConfiguration.h */,
+				5B715F06CC9E138E643559967446E475 /* RTCCryptoOptions.h */,
+				6D22A3238DC91C8FDE42B52F7F389EF5 /* RTCCVPixelBuffer.h */,
+				96D941124C39E774D37C7051A571EEF0 /* RTCDataChannel.h */,
+				7537E750AEA543E2E7F0FB498B59C506 /* RTCDataChannelConfiguration.h */,
+				7D69B7CEE5A0C5CFE5D3969EA7A9C18F /* RTCDefaultVideoDecoderFactory.h */,
+				86B008B5680C52EE6F5A89BBD6DF949E /* RTCDefaultVideoEncoderFactory.h */,
+				BF0E04472E7B0116DE9D6BB818F9C0C3 /* RTCDispatcher.h */,
+				1CE69D49AD9F7E6B1013C89E55470178 /* RTCDtmfSender.h */,
+				A159B9D616C0BFE782DB3EBB7974DB6F /* RTCEAGLVideoView.h */,
+				A434DAE470BEB4FBBD53CF24E3ACE5C4 /* RTCEncodedImage.h */,
+				3400DF262D4867443702305224375A95 /* RTCFieldTrials.h */,
+				E3A5A8E692E1CB662742EF1CA0CBFF7C /* RTCFileLogger.h */,
+				2DEE6CA2D331A06C37BFB613DE11E0BE /* RTCFileVideoCapturer.h */,
+				1D8B465DC74306E786EA80887242BBFB /* RTCH264ProfileLevelId.h */,
+				BD007B1ECFCB46E05DF0435E7DF18DAE /* RTCI420Buffer.h */,
+				38C0827BE1C28C6802D1F9E3B34E4076 /* RTCICECandidate.h */,
+				C1FBCB7396D44B1D42A80DD2483B13F6 /* RTCICEServer.h */,
+				F10B1D8A08181C8608D24E0E46C45A6B /* RTCLegacyStatsReport.h */,
+				40CCED2FBF5232B0B495EE7CA6F79E2D /* RTCLogging.h */,
+				B65EFAD9FD007DC1E3E52EE06DA9891B /* RTCMacros.h */,
+				95EE29C8589C8B06A0C72710D7C99BC8 /* RTCMediaConstraints.h */,
+				E465F82A90FB88F97A7023833274B43F /* RTCMediaSource.h */,
+				0D2FDFC7383C1437DBB73C6AE8B41153 /* RTCMediaStream.h */,
+				258D6B12D6F4E3A57DDD1F54C97C3424 /* RTCMediaStreamTrack.h */,
+				95DF1BB3787F2B6AA9F057135DD6624A /* RTCMetrics.h */,
+				B413C1131A82B992A793B6483E6FC74D /* RTCMetricsSampleInfo.h */,
+				6CD008DFD31571256D815D7608AEA6DD /* RTCMTLVideoView.h */,
+				D737FC75B50177ED84317E6AC12D2CDA /* RTCMutableI420Buffer.h */,
+				7B7A346AD570DC52F210741C239BF06F /* RTCMutableYUVPlanarBuffer.h */,
+				CA12DB2181EEC2A8F08F48DB489ED623 /* RTCNativeI420Buffer.h */,
+				A83CE29DB79CB9887B9CB81FCEA2FE03 /* RTCNativeMutableI420Buffer.h */,
+				63743E1C2BC6EA4177CC55B6595FEDC4 /* RTCPeerConnection.h */,
+				9061C3FA6C1C04F90CB6F87D05849276 /* RTCPeerConnectionFactory.h */,
+				72383608E8C0181AA8A2692E4D450BDE /* RTCPeerConnectionFactoryOptions.h */,
+				6E69E98D8F2DF5F29F43240B5195C645 /* RTCRtcpParameters.h */,
+				C04A37C5044B111A26BE7AD3CC611C23 /* RTCRtpCodecParameters.h */,
+				AE1CD36840A239A9519BA016CA45FD2D /* RTCRtpEncodingParameters.h */,
+				53C56FEA962FF2482AAC28D419F6193C /* RTCRtpFragmentationHeader.h */,
+				A5D795B941C7B28C06DA4E457738A6F3 /* RTCRtpHeaderExtension.h */,
+				4332A10DD911A538FD82BA24D0C4821A /* RTCRtpParameters.h */,
+				0CBF859BEC1B6305E0C9407CDFF21E4B /* RTCRtpReceiver.h */,
+				F474843E15B7FBA7387AF372D834FE4C /* RTCRtpSender.h */,
+				B65E5A8E3C58DBEFB88F3CA4881BBEF5 /* RTCRtpTransceiver.h */,
+				461BD8135E297232DC1007179977C84A /* RTCSessionDescription.h */,
+				333D40870B3D43F9477B6BA6CAAA90FF /* RTCSSLAdapter.h */,
+				8862C67E8D8B4750849B08E10C0D9C0A /* RTCStatisticsReport.h */,
+				20E992820BEB904367112C84133F8F5A /* RTCTracing.h */,
+				1C861568FBBFF5D4672B2446E88B9455 /* RTCVideoCapturer.h */,
+				DB1E24F0D0886E10F2220AECAD5E288F /* RTCVideoCodecConstants.h */,
+				515D02A2660B6256A47B3F5A5045347D /* RTCVideoCodecInfo.h */,
+				0ACB356816600DCCA90B82DC6A816563 /* RTCVideoDecoder.h */,
+				C31D2AD78D8CA5C44A3144B61B498138 /* RTCVideoDecoderFactory.h */,
+				4937B159C7049CAD54574D12F9F2FA4A /* RTCVideoDecoderFactoryH264.h */,
+				532218B2CF517E1DE7112A0E38738A95 /* RTCVideoDecoderH264.h */,
+				742C6A5663EC47179198A94559D52D61 /* RTCVideoDecoderVP8.h */,
+				0B0A08745E87721599DC6746584D223C /* RTCVideoDecoderVP9.h */,
+				9FA40417ADADF934E7EFD2895234850C /* RTCVideoEncoder.h */,
+				0FBB04DEB96C43AA158E27E2B1A40855 /* RTCVideoEncoderFactory.h */,
+				65FE6862AA56FDB6D06FF9C113C80E36 /* RTCVideoEncoderFactoryH264.h */,
+				4BB58EDF4816DB100E2EFE8C3E6FD50A /* RTCVideoEncoderH264.h */,
+				E27F180BB04E7599EF89F8A59C63355C /* RTCVideoEncoderQpThresholds.h */,
+				BBC6A89A0D5AF6862B282F9A44456E87 /* RTCVideoEncoderSettings.h */,
+				CE32FC26EF4EB170FC8FAB9C624CFF68 /* RTCVideoEncoderVP8.h */,
+				99E3804527A61D1324AA4FDCE65B6E2A /* RTCVideoEncoderVP9.h */,
+				FDF8EB38F003A1F0EE64D3D1C652BDCA /* RTCVideoFrame.h */,
+				71A2FA49C069F89CD5605F46FFA5C97B /* RTCVideoFrameBuffer.h */,
+				2FED2C87E1210F5812AFE1A5792761BC /* RTCVideoRenderer.h */,
+				7BD657B22EEE4FB7BB51D682C456F00F /* RTCVideoSource.h */,
+				A6441CD8A3B860A0209220C35D04F2C6 /* RTCVideoTrack.h */,
+				0DCE4A71D995914D672449F3F7E05A8E /* RTCVideoViewShading.h */,
+				8150A8AA3926E4FFB2106D4695DE5470 /* RTCYUVPlanarBuffer.h */,
+				62D94B008D14114190ABC12348E5CBAB /* UIDevice+RTCDevice.h */,
+				AC1C2BC001A4BBD87FC3D4E521D4A337 /* WebRTC.h */,
+			);
+			name = Headers;
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -375,7 +470,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				17BB5F15378192B131AC738581D80049 /* Development Pods */,
+				06C69F38DA03701E715A84924DF45367 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				3A4AF6DFEE2CB37F1F9BDFFA254AA525 /* Products */,
 				116FE867991AD65BB46F83B9989EBE0F /* Targets Support Files */,
@@ -388,6 +483,16 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE779EDFB2B7374A7D34A19CC691B768 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				97A17418B23B8F6115EB4435689BA64E /* CubeEngine.podspec */,
+				C547B28347B9BC68FEA96139DDFE428A /* LICENSE */,
+				A903FA79B20D69CDF79AD6AB9655AD4C /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E824C07EAE80E3B8B54156166840F538 /* Pods-CubeEngine_Example */ = {
@@ -405,6 +510,106 @@
 			);
 			name = "Pods-CubeEngine_Example";
 			path = "Target Support Files/Pods-CubeEngine_Example";
+			sourceTree = "<group>";
+		};
+		FD986D172C590421249382722921DF74 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D2E0B5EFD6CA8487F75E2DD7E08AE1EA /* Conference.h */,
+				7537B71B3F8925622426F73FDE2B77EA /* crypt.h */,
+				ABA3471E0FC2E29AE05799A8B4868D31 /* Cube.h */,
+				6F853513797AF3C49554208731D47C12 /* CubeAccountService.h */,
+				3D0906035F5D9245D3E449AC28B63CFB /* CubeCallEnum.h */,
+				696A8A5155E2F155F0E69993E64D641D /* CubeCallPeer.h */,
+				EBCF0723E916CACECAFCA6069BE80557 /* CubeCallService.h */,
+				C0D8678F05A449B38231E90EFD9153AA /* CubeCallType.h */,
+				3D5E1576B4465D0975C672BCF4CB8401 /* CubeCardContent.h */,
+				84DED4BF98432141970D7DEECB37AC59 /* CubeCardMessage.h */,
+				B6F60777707A2899B86AE810CE0C61E9 /* CubeConferenceConfig.h */,
+				0C22D43A3C3895AA8BB25BE17DC6A4EA /* CubeConferenceService.h */,
+				CA949A8FCB1158A8DA968D60948ACFD7 /* CubeConferenceStream.h */,
+				ADABA2F5607EAEF22A7D652FFD02914F /* CubeConfig.h */,
+				76FE443600F5D805675B548FDCDB6BCA /* CubeContact.h */,
+				A9515E35D6D094B80D8E6DC53721C53D /* CubeContactService.h */,
+				A316F821A9B4D378E464ED54A4A666AC /* CubeCustomMessage.h */,
+				FDFBA86D8F2C3F06D897ACCE2CF43808 /* CubeDelegate.h */,
+				E9B0DB8CDB5D6B2C8985CD351CC6021A /* CubeDeviceInfo.h */,
+				D85B6B8DB244130C9DD56CE9FAB6D002 /* CubeEngine.h */,
+				A2059A0563F5C88DD86EBC0E69456829 /* CubeEngineDeprecationMacros.h */,
+				F002A674CAE49C50E58D60D1EA452E43 /* CubeErrorInfo.h */,
+				72391883F50D43B0E2A22275F8153445 /* CubeFileInfo.h */,
+				92AEF35F30CA4CEE1E60B7B58A47C78B /* CubeFileManagerService.h */,
+				12A3DB8D64ACA28A268B1980B3C7C8C5 /* CubeFileMessage.h */,
+				169B81A728A6798D642900574D56DED9 /* CubeFileService.h */,
+				056E5570751DA1D92569B857061A9AB7 /* CubeFileUtil.h */,
+				83D2F7ACC2FE360043AB47AAED9F124C /* CubeGroupService.h */,
+				F9315267C83D934262F9C95DCB6B2956 /* CubeHistoryMessage.h */,
+				8DEEDD0559CBE22E4FDF02AA0C7A7C0A /* CubeImageMessage.h */,
+				6F7369B0CFCCA4F659FDE20CA40B2C55 /* CubeInstruction.h */,
+				EC0B0BA87E7C8A7174A3E113AD989FAC /* CubeInstructionRequestedResult.h */,
+				3FDD3BC492A0CF9312CC66795B005994 /* CubeInstructionService.h */,
+				1FF340D7D44E9A2A80CFCA8661702224 /* CubeJSONObject.h */,
+				69CE4119E2F37EAC48B1C9FB5C0BF265 /* CubeLiveInfo.h */,
+				98F81504E702D7175AC4DF77C499FF1E /* CubeLiveService.h */,
+				168C9483F36A20610481218EBC238D15 /* CubeLocalVideoView.h */,
+				E197295668356A221F9830B137CBDABC /* CubeLocationMessage.h */,
+				26E5CE93168ABAC32104BAC216F2C6F3 /* CubeMediaProbe.h */,
+				66F9C94915155E0A5733AD9C85C7B5FC /* CubeMediaService.h */,
+				6106B7E30F9BE050EE218BD2A2958383 /* CubeMediaType.h */,
+				66FE153F075DAC2115E00F38B9077389 /* CubeMessageService.h */,
+				2BAC45AA75DB8C88EC1D7CAF3FD8481A /* CubeNotifySetting.h */,
+				9DC5B6D8428689F816650461FE06EF18 /* CubePeer.h */,
+				F412481F9CDA1548BB3DD0507049209F /* CubePlayVideoView.h */,
+				AC8A5F75E472864C1B3AA6CAD689C103 /* CubePredictorResult.h */,
+				76E3E8AC2ABA48990CEDEB78C35C5235 /* CubePrerequisites.h */,
+				6A31B0BF3192DD3EE46D68F034F8FF9C /* CubeRecallInfo.h */,
+				558D54A16B4815AA17411BBE7140EE1D /* CubeRecordVideoView.h */,
+				B07FED6707746037447EA8375304A9D5 /* CubeRemoteDesktop.h */,
+				7DA74D8542BB9578526239CF26A8B8DC /* CubeRemoteDesktopService.h */,
+				BAC104B4CF016199C3A40E053AB31F03 /* CubeRemoteVideoView.h */,
+				0A91A4189E236807C345F9045167704C /* CubeRemoteView.h */,
+				DC5CE911AA11FFDEBE3352F6DBCF7E36 /* CubeReplyMessage.h */,
+				6468BE1699088A62B40D44E7B5581F00 /* CubeResponderDelegate.h */,
+				D6742137D676CA5372027D5DDEA02608 /* CubeRichContentMessage.h */,
+				8683A50F7DAA82B0B94498F878E9CA61 /* CubeSession.h */,
+				38A7EB5D04FC2D5F9745F74FD8F00379 /* CubeSettingService.h */,
+				1AB3725997C3435536A85CC60E21E991 /* CubeTextMessage.h */,
+				980D9C3AA926C1EFDC1BDE1556F1E4F5 /* CubeVideoClipMessage.h */,
+				E7740A2612EE918B77FD67BCCFC4CDB8 /* CubeVoiceClipMessage.h */,
+				5C54809B3770B59BEC943B0030FC6D6F /* CubeWhiteBoard.h */,
+				061B1FED8443D13C7B4D35E7CE1B981F /* CubeWhiteboardClipMessage.h */,
+				05624EC8D5668AB88BEB9DE1E3939A6E /* CubeWhiteboardFile.h */,
+				DB0702A1ED790BA26C48BABF2DC66BE3 /* CubeWhiteboardFrameMessage.h */,
+				F0CF0FF17E1042333247A07CB3A3BE86 /* CubeWhiteboardMessage.h */,
+				BEF50979858214294B4FF7E8805FBA8D /* CubeWhiteboardService.h */,
+				A6A3AA5AF4641AE76665802681B54240 /* CubeWhiteboardSlide.h */,
+				41BF25C64569FD95299174B9DC3BBD60 /* GroupContext.h */,
+				3322928E09892464082B905FC6E54664 /* ioapi.h */,
+				3985E1A0E2B1D630718A99621BC167BC /* MessageEntity.h */,
+				1A840BE7155347713A0C2E8BD9A97758 /* mztools.h */,
+				3CBF0C91D4AE93635602E53F2BBEE73F /* Peer.h */,
+				CD8263F4E602B1A0BD0A61BD02763671 /* Receiver.h */,
+				DF223EFED8F9299497B9A2D7006581E4 /* RemoteViewDataDelegate.h */,
+				C80738B0C114AED1020D807EA2D0D1A2 /* Sender.h */,
+				92FEFFBAC7ECD1E83F5B174AC7A8E129 /* SmartConference.h */,
+				BA2B7D610F839F73F9776A791021A50D /* SmartConferenceConfig.h */,
+				2ECC445D59AB23BB3BAAC2F7ED798E8E /* SmartConferenceEnum.h */,
+				14D3BC0C0C6FCA4B53841C7A4D3042F5 /* SmartConferenceService.h */,
+				BC606523CD41997B7A07F985702BB20E /* SmartConferenceStream.h */,
+				3AFB43183D077D8F8A742B1109320E47 /* SmartInviteFailure.h */,
+				1937F761FD5BD111C050E5941BBA4424 /* SmartMacroDefine.h */,
+				2C07666541BDBC75B4601A51C28B6BD6 /* SmartMediaData.h */,
+				CCD058377EB964654BDB03E7F1FC58D1 /* SmartMediaStats.h */,
+				855B0308281BDC864DAFD79FD45747B3 /* SmartMember.h */,
+				53BF8B7C0FCFDEF61E8B413186F4881D /* SmartMemberControl.h */,
+				9F3B87F95CEA021DFD63F8C69B6CFA72 /* SmartMemberRole.h */,
+				252EA3FE67D2168A90D67A8B67379BEF /* time_adpter.h */,
+				4FD34921A59BABDFF4C38E4051803FED /* unzip.h */,
+				A22B36765AE31BAB3314D31B9A2024F8 /* zip.h */,
+				D7BD759C3441A5DA481E4509D5C1A570 /* ZipArchiveUtils.h */,
+			);
+			name = include;
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -616,7 +821,7 @@
 		};
 		4ADAF28876EDC18AAD2C3A6FB9D01A94 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF6C0A709A1433F5858077B31E52DE2E /* CubeEngine.xcconfig */;
+			baseConfigurationReference = BB8A47C6D11B91C622DF7DD1EAB74F88 /* CubeEngine.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -820,7 +1025,7 @@
 		};
 		CC57547F2817FD3EC6123302872BC374 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF6C0A709A1433F5858077B31E52DE2E /* CubeEngine.xcconfig */;
+			baseConfigurationReference = BB8A47C6D11B91C622DF7DD1EAB74F88 /* CubeEngine.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
