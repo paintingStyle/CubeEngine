@@ -30,11 +30,19 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-	s.source_files = 'CubeEngine/Classes/include/**/*', 'CubeEngine/Libraries/*.{ast}','CubeEngine/ffmpeg/include/**/*','CubeEngine/Frameworks/WebRTC/**/*.h'
+	s.source_files = 'CubeEngine/Classes/include/**/*', 'CubeEngine/Libraries/*.{ast}','CubeEngine/ffmpeg/include/**/*','CubeEngine/Frameworks/WebRTC.framework/Headers/**/*.h'
 	s.xcconfig  =  {'OTHER_LDFLAGS' => '-ObjC' }
 	s.vendored_libraries = 'CubeEngine/Libraries/*.a'
 	s.vendored_frameworks = 'CubeEngine/Frameworks/*.framework'
-	s.public_header_files = 'CubeEngine/Classes/include/**/*.h',"CubeEngine/Frameworks/WebRTC.framework/Headers/**/*.h"
+	s.public_header_files = 'CubeEngine/Classes/include/**/*.h'#,"CubeEngine/Frameworks/WebRTC.framework/Headers/**/*.h"
 	s.frameworks = 'UIKit','AVFoundation','CoreMotion'
 	s.libraries = 'c++','c'
 end
+
+
+# $ git add .
+# $ git commit -m '编辑spec文件'
+# $ git remote add origin https://gitlab.com/ModulePlugin/DRCategories.git #添加远端仓库
+# $ git push origin master  #提交到远端
+# $ git tag -m "first release" "0.1.0" (要与DRCategories.podspec文件中的tag值保持一致)
+# $ git push --tags     #推送tag到远端仓库
