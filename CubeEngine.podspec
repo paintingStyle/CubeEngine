@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
 	s.xcconfig  =  {'OTHER_LDFLAGS' => '-ObjC' }
 	s.vendored_libraries = 'CubeEngine/Libraries/*.a'
 	s.vendored_frameworks = 'CubeEngine/Frameworks/*.framework'
-	s.public_header_files = 'CubeEngine/Classes/include/**/*.h'#,"CubeEngine/Frameworks/WebRTC.framework/Headers/**/*.h"
+	s.public_header_files = 'CubeEngine/Classes/include/**/*.h'
 	s.frameworks = 'UIKit','AVFoundation','CoreMotion'
 	s.libraries = 'c++','c'
 end
