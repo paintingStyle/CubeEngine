@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CubeEngine_Example' do
+  pod 'CubeEngine', :path => '../'
+
+  target 'CubeEngine_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
