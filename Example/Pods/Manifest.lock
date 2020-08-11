@@ -1,0 +1,16 @@
+PODS:
+  - CubeEngine (3.0.3)
+
+DEPENDENCIES:
+  - CubeEngine (from `../`)
+
+EXTERNAL SOURCES:
+  CubeEngine:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CubeEngine: afc2ff798a0b927dde33226a62df054c8c4d63a4
+
+PODFILE CHECKSUM: 2c521215b66d92fb9765dbf546032d801322bc22
+
+COCOAPODS: 1.7.5

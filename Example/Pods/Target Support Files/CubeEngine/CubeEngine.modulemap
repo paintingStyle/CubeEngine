@@ -1,0 +1,6 @@
+framework module CubeEngine {
+  umbrella header "CubeEngine-umbrella.h"
+
+  export *
+  module * { export * }
+}

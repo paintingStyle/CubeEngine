@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C30DA9C3F7946BA3FBAAE8F36B7B3050 /* CubeEngine */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E31F65D8816692329E916ABECD560D77 /* Build configuration list for PBXAggregateTarget "CubeEngine" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = CubeEngine;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		047C3A81C934EF6931F29845EE441A8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		37E2A08842890F5974A827AE646B98F4 /* Pods-CubeEngine_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F5B36BB1133E930B8B52C50D1E1C4B /* Pods-CubeEngine_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AB119F10BDFB15526664584A0C036B5 /* Pods-CubeEngine_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394FF9648B62ECE9278C86ACD2DBF33 /* Pods-CubeEngine_Tests-dummy.m */; };
+		6DFC6AB0F06BB87EEE8989A49BE851DA /* Pods-CubeEngine_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B94804897443B490885615220F24FB8 /* Pods-CubeEngine_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4716418796C5A2BE04F8B555ED8E0F9 /* Pods-CubeEngine_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BD9C60C16AFD41F6B1BBCDAD0E1D4C /* Pods-CubeEngine_Example-dummy.m */; };
+		F4C4EF6AB8F31514FBB9883B216A3260 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D4DE0688E5DC26CB69BFE367B06F804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C30DA9C3F7946BA3FBAAE8F36B7B3050;
+			remoteInfo = CubeEngine;
+		};
+		70870AC7B7C1FEB3AFD66172B81691B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBEA1B41D775F82D1D75B9252A4AA5B;
+			remoteInfo = "Pods-CubeEngine_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057B39348B2032523E6C7AC5107FF4C8 /* CubeJSONObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeJSONObject.h; path = CubeEngine/Classes/include/CubeJSONObject.h; sourceTree = "<group>"; };
+		075FDAA77425F641CBA910B9991BEEBB /* CubePredictorResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubePredictorResult.h; path = CubeEngine/Classes/include/CubePredictorResult.h; sourceTree = "<group>"; };
+		0ADE6A78D041979E4D864AB19BBB8607 /* CubeMessageService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeMessageService.h; path = CubeEngine/Classes/include/CubeMessageService.h; sourceTree = "<group>"; };
+		0C0A27BAA1709BD4B0B6F63671238FAA /* SmartInviteFailure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartInviteFailure.h; path = CubeEngine/Classes/include/SmartInviteFailure.h; sourceTree = "<group>"; };
+		0C29795E6216A9976B0ABF28D27FA687 /* CubeGroupService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeGroupService.h; path = CubeEngine/Classes/include/CubeGroupService.h; sourceTree = "<group>"; };
+		0D67EA06FA60DC56010D1C8CACD4C92A /* Pods-CubeEngine_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CubeEngine_Example.modulemap"; sourceTree = "<group>"; };
+		0E5C2F21C30677D0BD843DB7730D02F5 /* GroupContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GroupContext.h; path = CubeEngine/Classes/include/GroupContext.h; sourceTree = "<group>"; };
+		0E665710C5EB0D8E66AA2B089FB3ADEC /* Pods_CubeEngine_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CubeEngine_Example.framework; path = "Pods-CubeEngine_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B61013FA9930D744072F3C57BD8812 /* CubeLiveInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeLiveInfo.h; path = CubeEngine/Classes/include/CubeLiveInfo.h; sourceTree = "<group>"; };
+		124EF4F9A4ACCE237E3E3236B4FA555C /* SmartMemberControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartMemberControl.h; path = CubeEngine/Classes/include/SmartMemberControl.h; sourceTree = "<group>"; };
+		1277A04B022A871C46AB374BDF2770C9 /* Cube.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Cube.h; path = CubeEngine/Classes/include/Cube.h; sourceTree = "<group>"; };
+		13DF8C091EB28955E852FE9462C2E169 /* CubeHistoryMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeHistoryMessage.h; path = CubeEngine/Classes/include/CubeHistoryMessage.h; sourceTree = "<group>"; };
+		159CA9A6688E9AC6819B6F644ABEFD79 /* Pods-CubeEngine_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubeEngine_Example-Info.plist"; sourceTree = "<group>"; };
+		1D3B0C120F8F42BD40380D854525045F /* CubeLiveService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeLiveService.h; path = CubeEngine/Classes/include/CubeLiveService.h; sourceTree = "<group>"; };
+		1DCFA98DF646F0D4D07327135559244E /* CubeRemoteVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeRemoteVideoView.h; path = CubeEngine/Classes/include/CubeRemoteVideoView.h; sourceTree = "<group>"; };
+		1FFEB4C241BE2A37200531B7CF418C02 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = CubeEngine/Frameworks/Starscream.framework; sourceTree = "<group>"; };
+		2394FF9648B62ECE9278C86ACD2DBF33 /* Pods-CubeEngine_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CubeEngine_Tests-dummy.m"; sourceTree = "<group>"; };
+		242222D2A21C25A1A7DB207E4AEA6B53 /* CubeEngine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CubeEngine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2604B1EC0C88F0CA0AF40C0EA12D94FF /* CubeImageMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeImageMessage.h; path = CubeEngine/Classes/include/CubeImageMessage.h; sourceTree = "<group>"; };
+		2627B466F9FDDCC69BD2B71EF46F3D37 /* CubeLocalVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeLocalVideoView.h; path = CubeEngine/Classes/include/CubeLocalVideoView.h; sourceTree = "<group>"; };
+		276D4720EBDC22E3A7B50F5C79EFCC4D /* SmartMember.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartMember.h; path = CubeEngine/Classes/include/SmartMember.h; sourceTree = "<group>"; };
+		299DB3E846AD8AF270AF784943D7684B /* CubeConferenceService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeConferenceService.h; path = CubeEngine/Classes/include/CubeConferenceService.h; sourceTree = "<group>"; };
+		2AC1EEE53BE8FD9C1796CD701252BF24 /* Conference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Conference.h; path = CubeEngine/Classes/include/Conference.h; sourceTree = "<group>"; };
+		2BA2F748DB36846843AB85236D5E38E8 /* CubeCardMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeCardMessage.h; path = CubeEngine/Classes/include/CubeCardMessage.h; sourceTree = "<group>"; };
+		2D611803D6128BFD039C2B54401F4535 /* SmartMemberRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartMemberRole.h; path = CubeEngine/Classes/include/SmartMemberRole.h; sourceTree = "<group>"; };
+		2D74B7C083373C5E96F13FEB5A971EC2 /* CubeFileUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeFileUtil.h; path = CubeEngine/Classes/include/CubeFileUtil.h; sourceTree = "<group>"; };
+		2F190DA6CDB5C9E9AE62975B56E2B3D8 /* CubeAccountService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeAccountService.h; path = CubeEngine/Classes/include/CubeAccountService.h; sourceTree = "<group>"; };
+		30E3EAC93038E6811291C6EA76B9720B /* RemoteViewDataDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RemoteViewDataDelegate.h; path = CubeEngine/Classes/include/RemoteViewDataDelegate.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3308EE2399743A2D6B57A0192CD0CAE0 /* CubeRemoteDesktop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeRemoteDesktop.h; path = CubeEngine/Classes/include/CubeRemoteDesktop.h; sourceTree = "<group>"; };
+		338A9B10CA809BA3DAE11C17898DEAD1 /* CubePlayVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubePlayVideoView.h; path = CubeEngine/Classes/include/CubePlayVideoView.h; sourceTree = "<group>"; };
+		35F2C395AA0BB3181E5D7FA7364050D8 /* Pods-CubeEngine_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CubeEngine_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3EB5147B62A0CB084225A45E91A7B75A /* Pods-CubeEngine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeEngine_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4121324182F6DEF59CB17ED8E69A9D0D /* CubeCallPeer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeCallPeer.h; path = CubeEngine/Classes/include/CubeCallPeer.h; sourceTree = "<group>"; };
+		413CB01052361A8CFECEAECE6E0AA4E5 /* libCubeEngineRelease.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCubeEngineRelease.a; path = CubeEngine/Libraries/libCubeEngineRelease.a; sourceTree = "<group>"; };
+		42BE7BACA57154DF570673B6A74A4BC0 /* CubePeer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubePeer.h; path = CubeEngine/Classes/include/CubePeer.h; sourceTree = "<group>"; };
+		44BD9C60C16AFD41F6B1BBCDAD0E1D4C /* Pods-CubeEngine_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CubeEngine_Example-dummy.m"; sourceTree = "<group>"; };
+		472E23F9DCB897DD5052DEBAA88735C4 /* CubeVideoClipMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeVideoClipMessage.h; path = CubeEngine/Classes/include/CubeVideoClipMessage.h; sourceTree = "<group>"; };
+		516183E28ADFDADBAAEA4E2A595D338E /* CubeWhiteboardClipMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeWhiteboardClipMessage.h; path = CubeEngine/Classes/include/CubeWhiteboardClipMessage.h; sourceTree = "<group>"; };
+		54BA8387302CB7BDB846B7BA39CF366A /* CubeContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeContact.h; path = CubeEngine/Classes/include/CubeContact.h; sourceTree = "<group>"; };
+		56AA67DA2137CB2951BF8615228EEB43 /* CubeWhiteboardFrameMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeWhiteboardFrameMessage.h; path = CubeEngine/Classes/include/CubeWhiteboardFrameMessage.h; sourceTree = "<group>"; };
+		5D44DEFC4C3527909B4FA37A7FB501AA /* CubeCallType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeCallType.h; path = CubeEngine/Classes/include/CubeCallType.h; sourceTree = "<group>"; };
+		5D711E74FC699F78F3DC287D11754CE8 /* CubeWhiteboardMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeWhiteboardMessage.h; path = CubeEngine/Classes/include/CubeWhiteboardMessage.h; sourceTree = "<group>"; };
+		5E1E3120C83E1CCAAEC36E7D143FFE26 /* Pods-CubeEngine_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubeEngine_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E2A5F87CC92C06943442ABC1FE68EFC /* CubeConferenceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeConferenceConfig.h; path = CubeEngine/Classes/include/CubeConferenceConfig.h; sourceTree = "<group>"; };
+		5EFAF41D3F3440CDC7343775B1E0AFC6 /* time_adpter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = time_adpter.h; path = CubeEngine/Classes/include/time_adpter.h; sourceTree = "<group>"; };
+		603BBC9748212AFA08F846382966A7D5 /* CubeSettingService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeSettingService.h; path = CubeEngine/Classes/include/CubeSettingService.h; sourceTree = "<group>"; };
+		631B2940C3B523E7637828E3F4962537 /* mztools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mztools.h; path = CubeEngine/Classes/include/mztools.h; sourceTree = "<group>"; };
+		67C20B1BCC759A1AAA4E9136FB0B47ED /* CubeWhiteboardService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeWhiteboardService.h; path = CubeEngine/Classes/include/CubeWhiteboardService.h; sourceTree = "<group>"; };
+		68D9DB1905B79B630FCBF6C3F71421ED /* Receiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Receiver.h; path = CubeEngine/Classes/include/Receiver.h; sourceTree = "<group>"; };
+		6AACBCDB02E04322A4024497FB8E1037 /* CubeContactService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeContactService.h; path = CubeEngine/Classes/include/CubeContactService.h; sourceTree = "<group>"; };
+		6D9F11FFE75A2A134881D28A33CAFF95 /* SmartConference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartConference.h; path = CubeEngine/Classes/include/SmartConference.h; sourceTree = "<group>"; };
+		6E132AD82304366EE281FAE13010AF89 /* CubeFileService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeFileService.h; path = CubeEngine/Classes/include/CubeFileService.h; sourceTree = "<group>"; };
+		70266FD3B0A7F682EF3A69CA814CDE44 /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = CubeEngine/Classes/include/unzip.h; sourceTree = "<group>"; };
+		72DF31B65EB250AD10749FA6DBCB4763 /* Peer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Peer.h; path = CubeEngine/Classes/include/Peer.h; sourceTree = "<group>"; };
+		7382E5678A8C66D7E6571620C654ED4B /* CubeEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeEngine.h; path = CubeEngine/Classes/include/CubeEngine.h; sourceTree = "<group>"; };
+		7734FF509B29DF24CA67298A98D30937 /* CubeNotifySetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeNotifySetting.h; path = CubeEngine/Classes/include/CubeNotifySetting.h; sourceTree = "<group>"; };
+		790D23173BFD469A5DCB82F4A25789CF /* CubeEngineDeprecationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeEngineDeprecationMacros.h; path = CubeEngine/Classes/include/CubeEngineDeprecationMacros.h; sourceTree = "<group>"; };
+		792A1ED3F3C84BFF7F71E7C1EC0C352E /* CubeReplyMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeReplyMessage.h; path = CubeEngine/Classes/include/CubeReplyMessage.h; sourceTree = "<group>"; };
+		7B49017D3D14EB0AEA6C486269BBBA19 /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = CubeEngine/Classes/include/ioapi.h; sourceTree = "<group>"; };
+		7B94804897443B490885615220F24FB8 /* Pods-CubeEngine_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CubeEngine_Example-umbrella.h"; sourceTree = "<group>"; };
+		7E6CD0B2D89975C1FC7ADA3DAA6FCFBE /* Pods-CubeEngine_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CubeEngine_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8635A3A3F6160E93E1F3EC74E036C5E0 /* CubeRemoteDesktopService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeRemoteDesktopService.h; path = CubeEngine/Classes/include/CubeRemoteDesktopService.h; sourceTree = "<group>"; };
+		8DA4E2F55B0F950B50FD28187DF5AF75 /* CubeDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeDeviceInfo.h; path = CubeEngine/Classes/include/CubeDeviceInfo.h; sourceTree = "<group>"; };
+		8E1D688D170501FA0F9515536F902EC9 /* CubeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeDelegate.h; path = CubeEngine/Classes/include/CubeDelegate.h; sourceTree = "<group>"; };
+		8F47402F89F7B607DDE7F22677A82AED /* Pods-CubeEngine_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubeEngine_Tests-Info.plist"; sourceTree = "<group>"; };
+		93159062CB04100543232CDCEAD0FAC0 /* CubeWhiteboardSlide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeWhiteboardSlide.h; path = CubeEngine/Classes/include/CubeWhiteboardSlide.h; sourceTree = "<group>"; };
+		96A18B631BBAE34D36313DB3B0448FC2 /* SmartConferenceStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartConferenceStream.h; path = CubeEngine/Classes/include/SmartConferenceStream.h; sourceTree = "<group>"; };
+		9C4E09BF183D9A099BA0AAC0B117F5F4 /* CubeSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeSession.h; path = CubeEngine/Classes/include/CubeSession.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A11BF76A3A9DB63792612138A84D0D5E /* CubeConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeConfig.h; path = CubeEngine/Classes/include/CubeConfig.h; sourceTree = "<group>"; };
+		A138F9E3D9B695B9AEA42CF90EA0B5F2 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = CubeEngine/Frameworks/WebRTC.framework; sourceTree = "<group>"; };
+		A9B72C0A0EC76B0563C864A06AB9C071 /* CubeResponderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeResponderDelegate.h; path = CubeEngine/Classes/include/CubeResponderDelegate.h; sourceTree = "<group>"; };
+		ABFDF952BF540012DA926AC67FB302C1 /* SmartConferenceService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartConferenceService.h; path = CubeEngine/Classes/include/SmartConferenceService.h; sourceTree = "<group>"; };
+		B39FBC81667F5F9202444E749CDF6026 /* CubeCardContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeCardContent.h; path = CubeEngine/Classes/include/CubeCardContent.h; sourceTree = "<group>"; };
+		B3EF389BC27012C224865DA214CF7EF0 /* Pods-CubeEngine_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeEngine_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B3F5B36BB1133E930B8B52C50D1E1C4B /* Pods-CubeEngine_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CubeEngine_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B406B57D2A27586B04CCA950A2A4BDA0 /* CubeRichContentMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeRichContentMessage.h; path = CubeEngine/Classes/include/CubeRichContentMessage.h; sourceTree = "<group>"; };
+		B43316214761BE6A260A91EF4C8F2CB9 /* Pods-CubeEngine_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CubeEngine_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B554C4D4096280AE8A51C718ED52C390 /* CubeInstructionRequestedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeInstructionRequestedResult.h; path = CubeEngine/Classes/include/CubeInstructionRequestedResult.h; sourceTree = "<group>"; };
+		B570025AFF56F34EDADDAB8213AD43CD /* SmartMacroDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartMacroDefine.h; path = CubeEngine/Classes/include/SmartMacroDefine.h; sourceTree = "<group>"; };
+		B84C7D83034C9708983F03425C3EAF04 /* CubeInstructionService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeInstructionService.h; path = CubeEngine/Classes/include/CubeInstructionService.h; sourceTree = "<group>"; };
+		B90A9B6BADEC24114DB42AD35F3C8459 /* CubeFileMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeFileMessage.h; path = CubeEngine/Classes/include/CubeFileMessage.h; sourceTree = "<group>"; };
+		BC2B8436E77337067119DD9CCE836A24 /* CubeFileManagerService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeFileManagerService.h; path = CubeEngine/Classes/include/CubeFileManagerService.h; sourceTree = "<group>"; };
+		BCC6BDDD15FB525B41E5E0A75ED012DC /* Pods-CubeEngine_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubeEngine_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BCDEB593872E8367BF5557657A43E9B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BDA16B67880E5D13AD2F2854CC2A4EF1 /* SmartConferenceEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartConferenceEnum.h; path = CubeEngine/Classes/include/SmartConferenceEnum.h; sourceTree = "<group>"; };
+		BF695EDB0F2CFD1F8AC2652D0C1AA8DF /* SmartConferenceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartConferenceConfig.h; path = CubeEngine/Classes/include/SmartConferenceConfig.h; sourceTree = "<group>"; };
+		BF946C59821314C1FEF59978E6EAC57F /* CubeWhiteBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeWhiteBoard.h; path = CubeEngine/Classes/include/CubeWhiteBoard.h; sourceTree = "<group>"; };
+		C0CEE3CEBC8B9C32E6053424B55DD6CE /* CubeWhiteboardFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeWhiteboardFile.h; path = CubeEngine/Classes/include/CubeWhiteboardFile.h; sourceTree = "<group>"; };
+		C2671ABB68C668D9600B985361E0B5B4 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = CubeEngine/Frameworks/SocketIO.framework; sourceTree = "<group>"; };
+		C83F9C1CB19F1A02DC9AEBDB8C4DE4C2 /* CubeRecallInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeRecallInfo.h; path = CubeEngine/Classes/include/CubeRecallInfo.h; sourceTree = "<group>"; };
+		C85EFB59A3E524928DEE40C636ABD9E7 /* CubeErrorInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeErrorInfo.h; path = CubeEngine/Classes/include/CubeErrorInfo.h; sourceTree = "<group>"; };
+		C8D90C4BC9762D033EE9620A80615AF7 /* CubeCustomMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeCustomMessage.h; path = CubeEngine/Classes/include/CubeCustomMessage.h; sourceTree = "<group>"; };
+		C9DD67C1A08C665FA26596F4D0DCC6AD /* CubePrerequisites.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubePrerequisites.h; path = CubeEngine/Classes/include/CubePrerequisites.h; sourceTree = "<group>"; };
+		CB15406CC4D55148F438555C2A4212EB /* CubeVoiceClipMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeVoiceClipMessage.h; path = CubeEngine/Classes/include/CubeVoiceClipMessage.h; sourceTree = "<group>"; };
+		CB49C6BEEEC6AF5229B7DE4942B2CDD7 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = CubeEngine/Classes/include/zip.h; sourceTree = "<group>"; };
+		CBE029D4586A1D3C2CEAC229AB98B727 /* CubeConferenceStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeConferenceStream.h; path = CubeEngine/Classes/include/CubeConferenceStream.h; sourceTree = "<group>"; };
+		CD6BD51FA020A8D1ACE88C70F793A83A /* Pods-CubeEngine_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeEngine_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF3B51C5C794C9EB76F8A46878DE4955 /* CubeMediaProbe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeMediaProbe.h; path = CubeEngine/Classes/include/CubeMediaProbe.h; sourceTree = "<group>"; };
+		CF6C0A709A1433F5858077B31E52DE2E /* CubeEngine.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CubeEngine.xcconfig; sourceTree = "<group>"; };
+		D420D12202B5AF254A994146ECB62304 /* MessageEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MessageEntity.h; path = CubeEngine/Classes/include/MessageEntity.h; sourceTree = "<group>"; };
+		D8204A3CE41E13B46BE44DD1DDA52021 /* SmartMediaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartMediaData.h; path = CubeEngine/Classes/include/SmartMediaData.h; sourceTree = "<group>"; };
+		D8B2F487556BB158A32D6BC8981A4509 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D91AB69826E852B4D3FB396071C5E8A7 /* Pods-CubeEngine_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CubeEngine_Tests.modulemap"; sourceTree = "<group>"; };
+		D95ED1DFF4FD960A36847EE229BA9955 /* CubeInstruction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeInstruction.h; path = CubeEngine/Classes/include/CubeInstruction.h; sourceTree = "<group>"; };
+		DBD1CAA104B80DE6CAEE9EF14FDF7BB6 /* CubeRemoteView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeRemoteView.h; path = CubeEngine/Classes/include/CubeRemoteView.h; sourceTree = "<group>"; };
+		DCA68C2A4CA591C8296395E2EF40CFB5 /* ZipArchiveUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchiveUtils.h; path = CubeEngine/Classes/include/ZipArchiveUtils.h; sourceTree = "<group>"; };
+		DCDC94848BC05C70B739B855B3E2AA81 /* Pods_CubeEngine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CubeEngine_Tests.framework; path = "Pods-CubeEngine_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E194E4AE3177E555B3150830D0E56AAE /* Sender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sender.h; path = CubeEngine/Classes/include/Sender.h; sourceTree = "<group>"; };
+		E2BBC5C9C7C48A9BCA975B25EBE2E679 /* CubeTextMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeTextMessage.h; path = CubeEngine/Classes/include/CubeTextMessage.h; sourceTree = "<group>"; };
+		E3CABFAE3978F8E46CAD0AE5B24B8B1A /* CubeMediaService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeMediaService.h; path = CubeEngine/Classes/include/CubeMediaService.h; sourceTree = "<group>"; };
+		E65A19B6526D4B7008AC76FA4F81901E /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = CubeEngine/Classes/include/crypt.h; sourceTree = "<group>"; };
+		E9337B65E190FA4B77B0BB258BCA3DBC /* CubeCallEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeCallEnum.h; path = CubeEngine/Classes/include/CubeCallEnum.h; sourceTree = "<group>"; };
+		E99DDC04F66BB2DE459E167D750E9033 /* Pods-CubeEngine_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeEngine_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EF3B0148B8EDA6BF530B374F05A204F3 /* CubeLocationMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeLocationMessage.h; path = CubeEngine/Classes/include/CubeLocationMessage.h; sourceTree = "<group>"; };
+		EFB89E4D1565C2019C36109079B8EA7E /* CubeCallService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeCallService.h; path = CubeEngine/Classes/include/CubeCallService.h; sourceTree = "<group>"; };
+		F3E9605234C8A810906754DE857C8EC6 /* CubeMediaType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeMediaType.h; path = CubeEngine/Classes/include/CubeMediaType.h; sourceTree = "<group>"; };
+		F66179BEAA5B332AC89171B319FA7CBB /* CubeRecordVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeRecordVideoView.h; path = CubeEngine/Classes/include/CubeRecordVideoView.h; sourceTree = "<group>"; };
+		FB894ABE314702FAA9C8068CD3D9D079 /* SmartMediaStats.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartMediaStats.h; path = CubeEngine/Classes/include/SmartMediaStats.h; sourceTree = "<group>"; };
+		FD99A9393B1B91FAA7AD9B84097A5BA0 /* CubeFileInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeFileInfo.h; path = CubeEngine/Classes/include/CubeFileInfo.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A997D6DAD950831F7C4E545338E85C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047C3A81C934EF6931F29845EE441A8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1763069E9684E3425202EE0DE984938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C4EF6AB8F31514FBB9883B216A3260 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116FE867991AD65BB46F83B9989EBE0F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E824C07EAE80E3B8B54156166840F538 /* Pods-CubeEngine_Example */,
+				12E439DCEF2888E1B845B1E1F790EF1E /* Pods-CubeEngine_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		12E439DCEF2888E1B845B1E1F790EF1E /* Pods-CubeEngine_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D91AB69826E852B4D3FB396071C5E8A7 /* Pods-CubeEngine_Tests.modulemap */,
+				7E6CD0B2D89975C1FC7ADA3DAA6FCFBE /* Pods-CubeEngine_Tests-acknowledgements.markdown */,
+				5E1E3120C83E1CCAAEC36E7D143FFE26 /* Pods-CubeEngine_Tests-acknowledgements.plist */,
+				2394FF9648B62ECE9278C86ACD2DBF33 /* Pods-CubeEngine_Tests-dummy.m */,
+				8F47402F89F7B607DDE7F22677A82AED /* Pods-CubeEngine_Tests-Info.plist */,
+				B3F5B36BB1133E930B8B52C50D1E1C4B /* Pods-CubeEngine_Tests-umbrella.h */,
+				CD6BD51FA020A8D1ACE88C70F793A83A /* Pods-CubeEngine_Tests.debug.xcconfig */,
+				3EB5147B62A0CB084225A45E91A7B75A /* Pods-CubeEngine_Tests.release.xcconfig */,
+			);
+			name = "Pods-CubeEngine_Tests";
+			path = "Target Support Files/Pods-CubeEngine_Tests";
+			sourceTree = "<group>";
+		};
+		17BB5F15378192B131AC738581D80049 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33A70D506216D91089DCBFB1298ACFE0 /* CubeEngine */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2B6448F6311ED3408C0AD806328C3796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				413CB01052361A8CFECEAECE6E0AA4E5 /* libCubeEngineRelease.a */,
+				C2671ABB68C668D9600B985361E0B5B4 /* SocketIO.framework */,
+				1FFEB4C241BE2A37200531B7CF418C02 /* Starscream.framework */,
+				A138F9E3D9B695B9AEA42CF90EA0B5F2 /* WebRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3248FCC4427B57BBE8B84654DFB791E0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				242222D2A21C25A1A7DB207E4AEA6B53 /* CubeEngine.podspec */,
+				D8B2F487556BB158A32D6BC8981A4509 /* LICENSE */,
+				BCDEB593872E8367BF5557657A43E9B8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		33A70D506216D91089DCBFB1298ACFE0 /* CubeEngine */ = {
+			isa = PBXGroup;
+			children = (
+				2AC1EEE53BE8FD9C1796CD701252BF24 /* Conference.h */,
+				E65A19B6526D4B7008AC76FA4F81901E /* crypt.h */,
+				1277A04B022A871C46AB374BDF2770C9 /* Cube.h */,
+				2F190DA6CDB5C9E9AE62975B56E2B3D8 /* CubeAccountService.h */,
+				E9337B65E190FA4B77B0BB258BCA3DBC /* CubeCallEnum.h */,
+				4121324182F6DEF59CB17ED8E69A9D0D /* CubeCallPeer.h */,
+				EFB89E4D1565C2019C36109079B8EA7E /* CubeCallService.h */,
+				5D44DEFC4C3527909B4FA37A7FB501AA /* CubeCallType.h */,
+				B39FBC81667F5F9202444E749CDF6026 /* CubeCardContent.h */,
+				2BA2F748DB36846843AB85236D5E38E8 /* CubeCardMessage.h */,
+				5E2A5F87CC92C06943442ABC1FE68EFC /* CubeConferenceConfig.h */,
+				299DB3E846AD8AF270AF784943D7684B /* CubeConferenceService.h */,
+				CBE029D4586A1D3C2CEAC229AB98B727 /* CubeConferenceStream.h */,
+				A11BF76A3A9DB63792612138A84D0D5E /* CubeConfig.h */,
+				54BA8387302CB7BDB846B7BA39CF366A /* CubeContact.h */,
+				6AACBCDB02E04322A4024497FB8E1037 /* CubeContactService.h */,
+				C8D90C4BC9762D033EE9620A80615AF7 /* CubeCustomMessage.h */,
+				8E1D688D170501FA0F9515536F902EC9 /* CubeDelegate.h */,
+				8DA4E2F55B0F950B50FD28187DF5AF75 /* CubeDeviceInfo.h */,
+				7382E5678A8C66D7E6571620C654ED4B /* CubeEngine.h */,
+				790D23173BFD469A5DCB82F4A25789CF /* CubeEngineDeprecationMacros.h */,
+				C85EFB59A3E524928DEE40C636ABD9E7 /* CubeErrorInfo.h */,
+				FD99A9393B1B91FAA7AD9B84097A5BA0 /* CubeFileInfo.h */,
+				BC2B8436E77337067119DD9CCE836A24 /* CubeFileManagerService.h */,
+				B90A9B6BADEC24114DB42AD35F3C8459 /* CubeFileMessage.h */,
+				6E132AD82304366EE281FAE13010AF89 /* CubeFileService.h */,
+				2D74B7C083373C5E96F13FEB5A971EC2 /* CubeFileUtil.h */,
+				0C29795E6216A9976B0ABF28D27FA687 /* CubeGroupService.h */,
+				13DF8C091EB28955E852FE9462C2E169 /* CubeHistoryMessage.h */,
+				2604B1EC0C88F0CA0AF40C0EA12D94FF /* CubeImageMessage.h */,
+				D95ED1DFF4FD960A36847EE229BA9955 /* CubeInstruction.h */,
+				B554C4D4096280AE8A51C718ED52C390 /* CubeInstructionRequestedResult.h */,
+				B84C7D83034C9708983F03425C3EAF04 /* CubeInstructionService.h */,
+				057B39348B2032523E6C7AC5107FF4C8 /* CubeJSONObject.h */,
+				10B61013FA9930D744072F3C57BD8812 /* CubeLiveInfo.h */,
+				1D3B0C120F8F42BD40380D854525045F /* CubeLiveService.h */,
+				2627B466F9FDDCC69BD2B71EF46F3D37 /* CubeLocalVideoView.h */,
+				EF3B0148B8EDA6BF530B374F05A204F3 /* CubeLocationMessage.h */,
+				CF3B51C5C794C9EB76F8A46878DE4955 /* CubeMediaProbe.h */,
+				E3CABFAE3978F8E46CAD0AE5B24B8B1A /* CubeMediaService.h */,
+				F3E9605234C8A810906754DE857C8EC6 /* CubeMediaType.h */,
+				0ADE6A78D041979E4D864AB19BBB8607 /* CubeMessageService.h */,
+				7734FF509B29DF24CA67298A98D30937 /* CubeNotifySetting.h */,
+				42BE7BACA57154DF570673B6A74A4BC0 /* CubePeer.h */,
+				338A9B10CA809BA3DAE11C17898DEAD1 /* CubePlayVideoView.h */,
+				075FDAA77425F641CBA910B9991BEEBB /* CubePredictorResult.h */,
+				C9DD67C1A08C665FA26596F4D0DCC6AD /* CubePrerequisites.h */,
+				C83F9C1CB19F1A02DC9AEBDB8C4DE4C2 /* CubeRecallInfo.h */,
+				F66179BEAA5B332AC89171B319FA7CBB /* CubeRecordVideoView.h */,
+				3308EE2399743A2D6B57A0192CD0CAE0 /* CubeRemoteDesktop.h */,
+				8635A3A3F6160E93E1F3EC74E036C5E0 /* CubeRemoteDesktopService.h */,
+				1DCFA98DF646F0D4D07327135559244E /* CubeRemoteVideoView.h */,
+				DBD1CAA104B80DE6CAEE9EF14FDF7BB6 /* CubeRemoteView.h */,
+				792A1ED3F3C84BFF7F71E7C1EC0C352E /* CubeReplyMessage.h */,
+				A9B72C0A0EC76B0563C864A06AB9C071 /* CubeResponderDelegate.h */,
+				B406B57D2A27586B04CCA950A2A4BDA0 /* CubeRichContentMessage.h */,
+				9C4E09BF183D9A099BA0AAC0B117F5F4 /* CubeSession.h */,
+				603BBC9748212AFA08F846382966A7D5 /* CubeSettingService.h */,
+				E2BBC5C9C7C48A9BCA975B25EBE2E679 /* CubeTextMessage.h */,
+				472E23F9DCB897DD5052DEBAA88735C4 /* CubeVideoClipMessage.h */,
+				CB15406CC4D55148F438555C2A4212EB /* CubeVoiceClipMessage.h */,
+				BF946C59821314C1FEF59978E6EAC57F /* CubeWhiteBoard.h */,
+				516183E28ADFDADBAAEA4E2A595D338E /* CubeWhiteboardClipMessage.h */,
+				C0CEE3CEBC8B9C32E6053424B55DD6CE /* CubeWhiteboardFile.h */,
+				56AA67DA2137CB2951BF8615228EEB43 /* CubeWhiteboardFrameMessage.h */,
+				5D711E74FC699F78F3DC287D11754CE8 /* CubeWhiteboardMessage.h */,
+				67C20B1BCC759A1AAA4E9136FB0B47ED /* CubeWhiteboardService.h */,
+				93159062CB04100543232CDCEAD0FAC0 /* CubeWhiteboardSlide.h */,
+				0E5C2F21C30677D0BD843DB7730D02F5 /* GroupContext.h */,
+				7B49017D3D14EB0AEA6C486269BBBA19 /* ioapi.h */,
+				D420D12202B5AF254A994146ECB62304 /* MessageEntity.h */,
+				631B2940C3B523E7637828E3F4962537 /* mztools.h */,
+				72DF31B65EB250AD10749FA6DBCB4763 /* Peer.h */,
+				68D9DB1905B79B630FCBF6C3F71421ED /* Receiver.h */,
+				30E3EAC93038E6811291C6EA76B9720B /* RemoteViewDataDelegate.h */,
+				E194E4AE3177E555B3150830D0E56AAE /* Sender.h */,
+				6D9F11FFE75A2A134881D28A33CAFF95 /* SmartConference.h */,
+				BF695EDB0F2CFD1F8AC2652D0C1AA8DF /* SmartConferenceConfig.h */,
+				BDA16B67880E5D13AD2F2854CC2A4EF1 /* SmartConferenceEnum.h */,
+				ABFDF952BF540012DA926AC67FB302C1 /* SmartConferenceService.h */,
+				96A18B631BBAE34D36313DB3B0448FC2 /* SmartConferenceStream.h */,
+				0C0A27BAA1709BD4B0B6F63671238FAA /* SmartInviteFailure.h */,
+				B570025AFF56F34EDADDAB8213AD43CD /* SmartMacroDefine.h */,
+				D8204A3CE41E13B46BE44DD1DDA52021 /* SmartMediaData.h */,
+				FB894ABE314702FAA9C8068CD3D9D079 /* SmartMediaStats.h */,
+				276D4720EBDC22E3A7B50F5C79EFCC4D /* SmartMember.h */,
+				124EF4F9A4ACCE237E3E3236B4FA555C /* SmartMemberControl.h */,
+				2D611803D6128BFD039C2B54401F4535 /* SmartMemberRole.h */,
+				5EFAF41D3F3440CDC7343775B1E0AFC6 /* time_adpter.h */,
+				70266FD3B0A7F682EF3A69CA814CDE44 /* unzip.h */,
+				CB49C6BEEEC6AF5229B7DE4942B2CDD7 /* zip.h */,
+				DCA68C2A4CA591C8296395E2EF40CFB5 /* ZipArchiveUtils.h */,
+				2B6448F6311ED3408C0AD806328C3796 /* Frameworks */,
+				3248FCC4427B57BBE8B84654DFB791E0 /* Pod */,
+				475910F9EA9604EA6890E0B4B3C13CC8 /* Support Files */,
+			);
+			name = CubeEngine;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3A4AF6DFEE2CB37F1F9BDFFA254AA525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E665710C5EB0D8E66AA2B089FB3ADEC /* Pods_CubeEngine_Example.framework */,
+				DCDC94848BC05C70B739B855B3E2AA81 /* Pods_CubeEngine_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		475910F9EA9604EA6890E0B4B3C13CC8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF6C0A709A1433F5858077B31E52DE2E /* CubeEngine.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CubeEngine";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				17BB5F15378192B131AC738581D80049 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3A4AF6DFEE2CB37F1F9BDFFA254AA525 /* Products */,
+				116FE867991AD65BB46F83B9989EBE0F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E824C07EAE80E3B8B54156166840F538 /* Pods-CubeEngine_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0D67EA06FA60DC56010D1C8CACD4C92A /* Pods-CubeEngine_Example.modulemap */,
+				35F2C395AA0BB3181E5D7FA7364050D8 /* Pods-CubeEngine_Example-acknowledgements.markdown */,
+				BCC6BDDD15FB525B41E5E0A75ED012DC /* Pods-CubeEngine_Example-acknowledgements.plist */,
+				44BD9C60C16AFD41F6B1BBCDAD0E1D4C /* Pods-CubeEngine_Example-dummy.m */,
+				B43316214761BE6A260A91EF4C8F2CB9 /* Pods-CubeEngine_Example-frameworks.sh */,
+				159CA9A6688E9AC6819B6F644ABEFD79 /* Pods-CubeEngine_Example-Info.plist */,
+				7B94804897443B490885615220F24FB8 /* Pods-CubeEngine_Example-umbrella.h */,
+				B3EF389BC27012C224865DA214CF7EF0 /* Pods-CubeEngine_Example.debug.xcconfig */,
+				E99DDC04F66BB2DE459E167D750E9033 /* Pods-CubeEngine_Example.release.xcconfig */,
+			);
+			name = "Pods-CubeEngine_Example";
+			path = "Target Support Files/Pods-CubeEngine_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A8E91B68F20410866F0BC3E6E193D7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DFC6AB0F06BB87EEE8989A49BE851DA /* Pods-CubeEngine_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255A90D7937773FFD769AAF828DC7130 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2A08842890F5974A827AE646B98F4 /* Pods-CubeEngine_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A6F1474DB3E589CA34541B504231AAD2 /* Pods-CubeEngine_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396DB016938FEB261EDBE76498DFEDFF /* Build configuration list for PBXNativeTarget "Pods-CubeEngine_Tests" */;
+			buildPhases = (
+				255A90D7937773FFD769AAF828DC7130 /* Headers */,
+				460C94940924901AB6F3A3E4922B192B /* Sources */,
+				A997D6DAD950831F7C4E545338E85C35 /* Frameworks */,
+				AD3780CB7EBB663357E8008413DD2778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D56B646883CFE438852381EEFDB2BB2F /* PBXTargetDependency */,
+			);
+			name = "Pods-CubeEngine_Tests";
+			productName = "Pods-CubeEngine_Tests";
+			productReference = DCDC94848BC05C70B739B855B3E2AA81 /* Pods_CubeEngine_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CEBEA1B41D775F82D1D75B9252A4AA5B /* Pods-CubeEngine_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0E5584CE27ECB34BD51AA24FDB3DB6 /* Build configuration list for PBXNativeTarget "Pods-CubeEngine_Example" */;
+			buildPhases = (
+				0A8E91B68F20410866F0BC3E6E193D7C /* Headers */,
+				F5D554C9580B1B896F355C9A03F2A801 /* Sources */,
+				D1763069E9684E3425202EE0DE984938 /* Frameworks */,
+				62CAF9498B4DA413A8648ED96498B306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D922130ABD883EF7CEFBE4CCEFDD6304 /* PBXTargetDependency */,
+			);
+			name = "Pods-CubeEngine_Example";
+			productName = "Pods-CubeEngine_Example";
+			productReference = 0E665710C5EB0D8E66AA2B089FB3ADEC /* Pods_CubeEngine_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3A4AF6DFEE2CB37F1F9BDFFA254AA525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C30DA9C3F7946BA3FBAAE8F36B7B3050 /* CubeEngine */,
+				CEBEA1B41D775F82D1D75B9252A4AA5B /* Pods-CubeEngine_Example */,
+				A6F1474DB3E589CA34541B504231AAD2 /* Pods-CubeEngine_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62CAF9498B4DA413A8648ED96498B306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3780CB7EBB663357E8008413DD2778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460C94940924901AB6F3A3E4922B192B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB119F10BDFB15526664584A0C036B5 /* Pods-CubeEngine_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D554C9580B1B896F355C9A03F2A801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4716418796C5A2BE04F8B555ED8E0F9 /* Pods-CubeEngine_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D56B646883CFE438852381EEFDB2BB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CubeEngine_Example";
+			target = CEBEA1B41D775F82D1D75B9252A4AA5B /* Pods-CubeEngine_Example */;
+			targetProxy = 70870AC7B7C1FEB3AFD66172B81691B2 /* PBXContainerItemProxy */;
+		};
+		D922130ABD883EF7CEFBE4CCEFDD6304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CubeEngine;
+			target = C30DA9C3F7946BA3FBAAE8F36B7B3050 /* CubeEngine */;
+			targetProxy = 4D4DE0688E5DC26CB69BFE367B06F804 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		182A4036EB01EB76CE27A35B6E5714F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3EF389BC27012C224865DA214CF7EF0 /* Pods-CubeEngine_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CubeEngine_Example/Pods-CubeEngine_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CubeEngine_Example/Pods-CubeEngine_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A8ADB0E0242342259AE16C514C392F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99DDC04F66BB2DE459E167D750E9033 /* Pods-CubeEngine_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CubeEngine_Example/Pods-CubeEngine_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CubeEngine_Example/Pods-CubeEngine_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4ADAF28876EDC18AAD2C3A6FB9D01A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF6C0A709A1433F5858077B31E52DE2E /* CubeEngine.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		775BF5AEEF1217FD928AD0E400B7166E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6BD51FA020A8D1ACE88C70F793A83A /* Pods-CubeEngine_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CubeEngine_Tests/Pods-CubeEngine_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CubeEngine_Tests/Pods-CubeEngine_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B3721D33ABB4A01AEE80567CE7C9F761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EB5147B62A0CB084225A45E91A7B75A /* Pods-CubeEngine_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CubeEngine_Tests/Pods-CubeEngine_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CubeEngine_Tests/Pods-CubeEngine_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC57547F2817FD3EC6123302872BC374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF6C0A709A1433F5858077B31E52DE2E /* CubeEngine.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D0E5584CE27ECB34BD51AA24FDB3DB6 /* Build configuration list for PBXNativeTarget "Pods-CubeEngine_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182A4036EB01EB76CE27A35B6E5714F2 /* Debug */,
+				3A8ADB0E0242342259AE16C514C392F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396DB016938FEB261EDBE76498DFEDFF /* Build configuration list for PBXNativeTarget "Pods-CubeEngine_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775BF5AEEF1217FD928AD0E400B7166E /* Debug */,
+				B3721D33ABB4A01AEE80567CE7C9F761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31F65D8816692329E916ABECD560D77 /* Build configuration list for PBXAggregateTarget "CubeEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADAF28876EDC18AAD2C3A6FB9D01A94 /* Debug */,
+				CC57547F2817FD3EC6123302872BC374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

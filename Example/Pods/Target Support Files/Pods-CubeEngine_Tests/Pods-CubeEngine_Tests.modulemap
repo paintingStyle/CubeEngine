@@ -1,0 +1,6 @@
+framework module Pods_CubeEngine_Tests {
+  umbrella header "Pods-CubeEngine_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
