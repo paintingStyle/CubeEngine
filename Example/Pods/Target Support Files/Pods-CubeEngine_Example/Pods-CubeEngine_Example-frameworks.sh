@@ -161,14 +161,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/../../CubeEngine/Frameworks/SocketIO.framework"
-  install_framework "${PODS_ROOT}/../../CubeEngine/Frameworks/Starscream.framework"
-  install_framework "${PODS_ROOT}/../../CubeEngine/Frameworks/WebRTC.framework"
+  install_framework "${PODS_ROOT}/SPSocketIO/SPSocketIO/Frameworks/SocketIO.framework"
+  install_framework "${PODS_ROOT}/SPSocketIO/SPSocketIO/Frameworks/Starscream.framework"
+  install_framework "${PODS_ROOT}/SPWebRTC/WebRTC/WebRTC.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/../../CubeEngine/Frameworks/SocketIO.framework"
-  install_framework "${PODS_ROOT}/../../CubeEngine/Frameworks/Starscream.framework"
-  install_framework "${PODS_ROOT}/../../CubeEngine/Frameworks/WebRTC.framework"
+  install_framework "${PODS_ROOT}/SPSocketIO/SPSocketIO/Frameworks/SocketIO.framework"
+  install_framework "${PODS_ROOT}/SPSocketIO/SPSocketIO/Frameworks/Starscream.framework"
+  install_framework "${PODS_ROOT}/SPWebRTC/WebRTC/WebRTC.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

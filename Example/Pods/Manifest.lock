@@ -1,15 +1,26 @@
 PODS:
-  - CubeEngine (3.0.3)
+  - CubeEngine (3.0.4):
+    - SPSocketIO
+    - SPWebRTC
+  - SPSocketIO (0.0.3)
+  - SPWebRTC (0.3.0.2)
 
 DEPENDENCIES:
   - CubeEngine (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SPSocketIO
+    - SPWebRTC
 
 EXTERNAL SOURCES:
   CubeEngine:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CubeEngine: 21e597ae7c67fde33fac0901a485f0de3d06a775
+  CubeEngine: 36043e731d402206a549d520afdd6afa0b6191b4
+  SPSocketIO: 0989ff4eee6c6a6b90846f0eccc63783cf8680ab
+  SPWebRTC: effa2e04177ec841bea12e036b0f3e154ad9086e
 
 PODFILE CHECKSUM: 2c521215b66d92fb9765dbf546032d801322bc22
 

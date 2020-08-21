@@ -1,6 +1,6 @@
 {
   "name": "CubeEngine",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "summary": "shixinyun CubeEngine",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/paintingStyle/CubeEngine",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/paintingStyle/CubeEngine.git",
-    "tag": "3.0.3"
+    "tag": "3.0.4"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,14 +21,12 @@
   "source_files": [
     "CubeEngine/Classes/include/**/*",
     "CubeEngine/Libraries/*.{ast}",
-    "CubeEngine/ffmpeg/include/**/*",
-    "CubeEngine/Frameworks/WebRTC.framework/Headers/**/*.h"
+    "CubeEngine/ffmpeg/include/**/*"
   ],
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC"
   },
   "vendored_libraries": "CubeEngine/Libraries/*.a",
-  "vendored_frameworks": "CubeEngine/Frameworks/*.framework",
   "public_header_files": "CubeEngine/Classes/include/**/*.h",
   "frameworks": [
     "UIKit",
@@ -38,5 +36,13 @@
   "libraries": [
     "c++",
     "c"
-  ]
+  ],
+  "dependencies": {
+    "SPWebRTC": [
+
+    ],
+    "SPSocketIO": [
+
+    ]
+  }
 }

@@ -327,9 +327,9 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CubeEngine_Example/Pods-CubeEngine_Example-frameworks.sh",
-				"${PODS_ROOT}/../../CubeEngine/Frameworks/SocketIO.framework",
-				"${PODS_ROOT}/../../CubeEngine/Frameworks/Starscream.framework",
-				"${PODS_ROOT}/../../CubeEngine/Frameworks/WebRTC.framework",
+				"${PODS_ROOT}/SPSocketIO/SPSocketIO/Frameworks/SocketIO.framework",
+				"${PODS_ROOT}/SPSocketIO/SPSocketIO/Frameworks/Starscream.framework",
+				"${PODS_ROOT}/SPWebRTC/WebRTC/WebRTC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

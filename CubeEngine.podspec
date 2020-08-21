@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 	s.name             = 'CubeEngine'
-	s.version          = '3.0.3' # 0.2+言见项目使用，0.3+司派项目使用
+	s.version          = '3.0.4' # 0.2+言见项目使用，0.3+司派项目使用
 	s.summary          = 'shixinyun CubeEngine'
 
 # This description is used to generate tags and improve search results.
@@ -30,13 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-	s.source_files = 'CubeEngine/Classes/include/**/*', 'CubeEngine/Libraries/*.{ast}','CubeEngine/ffmpeg/include/**/*','CubeEngine/Frameworks/WebRTC.framework/Headers/**/*.h'
+	s.source_files = 'CubeEngine/Classes/include/**/*', 'CubeEngine/Libraries/*.{ast}','CubeEngine/ffmpeg/include/**/*'
 	s.xcconfig  =  {'OTHER_LDFLAGS' => '-ObjC' }
 	s.vendored_libraries = 'CubeEngine/Libraries/*.a'
-	s.vendored_frameworks = 'CubeEngine/Frameworks/*.framework'
 	s.public_header_files = 'CubeEngine/Classes/include/**/*.h'
 	s.frameworks = 'UIKit','AVFoundation','CoreMotion'
 	s.libraries = 'c++','c'
+	s.dependency 'SPWebRTC'
+	s.dependency 'SPSocketIO'
 end
 
 
